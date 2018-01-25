@@ -15,4 +15,4 @@ rurale
 .. toctree::
    :maxdepth: 2
 
-   transformers_personnalises/index.rst
+   tp/index.rst
