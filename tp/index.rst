@@ -2,7 +2,8 @@ Writer PCRS pour FME
 =======================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+
 
  PCRS_AffleurantPCRS
  PCRS_ArbrePCRS
