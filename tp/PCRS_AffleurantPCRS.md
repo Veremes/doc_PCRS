@@ -1,9 +1,5 @@
 # AffleurantPCRS #
 
-
-
-**Nom de la classe**
-
 AffleurantPCRS
 
 **Sous-classe de**
