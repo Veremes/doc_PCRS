@@ -1,3 +1,7 @@
+# MurPCRS #
+
+
+
 **Nom de la classe**
 
 MurPCRS
@@ -42,12 +46,12 @@ Mur, bahut, gabion
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS :|_PCRS.ID|
-|Identifiant Objet:|_PCRS.IDOBJET|
-|Thématique:|_PCRS.THEMATIQUE|
-|Qualité Catégorisation:|_PCRS.QUALITECATEGORISATION|
-|Précision Planimetrique:|_PCRS.PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique:|_PCRS.PRECISIONALTIMETRIQUE|
-|Producteur:|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ","):|_PCRS.NUMEROPOINT|
-|Type Mur:|_PCRS.TYPEMUR|
+|Identifiant PCRS|_PCRS.ID|
+|Identifiant Objet|_PCRS.IDOBJET|
+|Thématique|_PCRS.THEMATIQUE|
+|Qualité Catégorisation|_PCRS.QUALITECATEGORISATION|
+|Précision Planimetrique|_PCRS.PRECISIONPLANIMETRIQUE|
+|Précision Altimétrique|_PCRS.PRECISIONALTIMETRIQUE|
+|Producteur|_PCRS.PRODUCTEUR|
+|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
+|Type Mur|_PCRS.TYPEMUR|

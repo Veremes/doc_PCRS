@@ -1,3 +1,7 @@
+# HabillageEnveloppePCRS #
+
+
+
 **Nom de la classe**
 
 HabillageEnveloppePCRS
@@ -35,6 +39,6 @@ Surfacique La classe contient :
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS :|_PCRS.ID|
-|Identifiant Habillage:|_PCRS.IDHABILLAGE|
-|Thematique:|_PCRS.THEMATIQUE|
+|Identifiant PCRS|_PCRS.ID|
+|Identifiant Habillage|_PCRS.IDHABILLAGE|
+|Thematique|_PCRS.THEMATIQUE|

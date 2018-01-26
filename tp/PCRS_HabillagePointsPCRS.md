@@ -1,3 +1,7 @@
+# HabillagePointsPCRS #
+
+
+
 **Nom de la classe**
 
 HabillagePointsPCRS
@@ -36,6 +40,6 @@ Multipoints
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS :|_PCRS.ID|
-|Identifiant Habillage:|_PCRS.IDHABILLAGE|
-|Thematique:|_PCRS.THEMATIQUE|
+|Identifiant PCRS|_PCRS.ID|
+|Identifiant Habillage|_PCRS.IDHABILLAGE|
+|Thematique|_PCRS.THEMATIQUE|

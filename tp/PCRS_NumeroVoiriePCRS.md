@@ -1,3 +1,7 @@
+# NumeroVoiriePCRS #
+
+
+
 **Nom de la classe**
 
 NumeroVoiriePCRS
@@ -55,12 +59,12 @@ Contraintes de positionnement en dehors de l'espace public de la voirie, en part
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS :|_PCRS.ID|
-|Identifiant Habillage:|_PCRS.IDHABILLAGE|
-|Thematique:|_PCRS.THEMATIQUE|
-|Libelle:|_PCRS.LIBELLE|
-|Angle de rotation:|_PCRS_ANGLEROTATION|
-|Justification:|_PCRS.JUSTIFICATION|
-|Taille:|_PCRS.TAILLE|
-|Numero de voirie:||_PCRS.IDNUMEROVOIRIE
-|Positionnement:|_PCRS.POSITIONNEMENT
+|Identifiant PCRS|_PCRS.ID|
+|Identifiant Habillage|_PCRS.IDHABILLAGE|
+|Thematique|_PCRS.THEMATIQUE|
+|Libelle|_PCRS.LIBELLE|
+|Angle de rotation|_PCRS_ANGLEROTATION|
+|Justification|_PCRS.JUSTIFICATION|
+|Taille|_PCRS.TAILLE|
+|Numero de voirie|_PCRS.IDNUMEROVOIRIE|
+|Positionnement|_PCRS.POSITIONNEMENT

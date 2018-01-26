@@ -1,3 +1,7 @@
+# PointLevePCRS #
+
+
+
 **Nom de la classe**
 
 PointLevePCRS
@@ -92,8 +96,8 @@ Tout point servant à qualifier un objet du PCRS en tant que support pour une co
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS (obligatoire):|_PCRS.ID|
-|Numero Point:|_PCRS.NUMEROPOINT|
-|Précision Planimétrique:|_PCRS.PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique:|_PCRS.PRECISIONALTIMETRIQUE|
+|Identifiant PCRS (obligatoire)|_PCRS.ID|
+|Numero Point|_PCRS.NUMEROPOINT|
+|Précision Planimétrique|_PCRS.PRECISIONPLANIMETRIQUE|
+|Précision Altimétrique|_PCRS.PRECISIONALTIMETRIQUE|
 |Horodatage:|_PCRS.HORODATAGE|

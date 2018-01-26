@@ -1,3 +1,7 @@
+# HabillageSymbolePCRS #
+
+
+
 **Nom de la classe**
 
 HabillageSymbolePCRS
@@ -70,10 +74,10 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS :|_PCRS.ID|
-|Identifiant Habillage:|_PCRS.IDHABILLAGE|
-|Thematique:|_PCRS.THEMATIQUE|
-|Reference:|_PCRS_REFERENCE|
-|Angle de rotation:|_PCRS_ANGLEROTATION|
-|Longueur en mm:|_PCRS_LONGUEUR_MM|
-|Largeur en mm:|_PCRS.LARGEUR_MM|
+|Identifiant PCRS|_PCRS.ID|
+|Identifiant Habillage|_PCRS.IDHABILLAGE|
+|Thematique|_PCRS.THEMATIQUE|
+|Reference|_PCRS_REFERENCE|
+|Angle de rotation|_PCRS_ANGLEROTATION|
+|Longueur en mm|_PCRS_LONGUEUR_MM|
+|Largeur en mm|_PCRS.LARGEUR_MM|

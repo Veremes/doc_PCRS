@@ -1,3 +1,7 @@
+# HabillageLignesPCRS #
+
+
+
 **Nom de la classe**
 
 HabillageLignesPCRS
@@ -42,6 +46,6 @@ Multilignes
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS :|_PCRS.ID|
-|Identifiant Habillage:|_PCRS.IDHABILLAGE|
+|Identifiant PCRS|_PCRS.ID|
+|Identifiant Habillage|_PCRS.IDHABILLAGE|
 |Thematique|_PCRS.THEMATIQUE|

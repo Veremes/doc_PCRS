@@ -1,3 +1,7 @@
+# EmpriseEchangePCRS #
+
+
+
 **Nom de la classe**
 
 EmpriseEchangePCRS  
@@ -97,10 +101,10 @@ Les emprises d'échanges du PCRS peuvent suivre des logiques différentes :
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant Emprise:|_PCRS.IDEMPRISE|
-|Complement:|_PCRS.IDEMPRISE|
-|Date de Publication:|_PCRS.DATEPUBLICATION|
-|PCRS Id:|_PCRS.ID|
-|Object Id:|_PCRS.OBJECT_ID|
-|Fournisseur:|_PCRS.FOURNISSEUR|
-|Type:|_PCRS.TYPE|
+|Identifiant Emprise|_PCRS.IDEMPRISE|
+|Complement|_PCRS.IDEMPRISE|
+|Date de Publication|_PCRS.DATEPUBLICATION|
+|PCRS Id|_PCRS.ID|
+|Object Id|_PCRS.OBJECT_ID|
+|Fournisseur|_PCRS.FOURNISSEUR|
+|Type|_PCRS.TYPE|

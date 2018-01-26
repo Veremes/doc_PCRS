@@ -1,3 +1,7 @@
+# PilierRegulierPCRS #
+
+
+
 **Nom de la classe**
 
 PilierRegulierPCRS
@@ -81,15 +85,15 @@ Lorsque le pilier est associé à un socle ou à un mur, ses dimensions au sol d
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS :|_PCRS.ID|
-|Identifiant Objet:|_PCRS.IDOBJET|
-|Thématique:|_PCRS.THEMATIQUE|
-|Qualité Catégorisation:|QUALITECATEGORISATION|
-|Précision Planimetrique:|_PCRS.PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique:|_PCRS.PRECISIONALTIMETRIQUE|
-|Producteur:|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ","):|_PCRS.NUMEROPOINT|
-|Angle Rotation:|_PCRS.ANGLEROTATION|
-|Largeur:|_PCRS.LARGEUR|
-|Longueur:|_PCRS.LONGUEUR|
-|Section:|_PCRS.SECTION|
+|Identifiant PCRS|_PCRS.ID|
+|Identifiant Objet|_PCRS.IDOBJET|
+|Thématique|_PCRS.THEMATIQUE|
+|Qualité Catégorisation|QUALITECATEGORISATION|
+|Précision Planimetrique|_PCRS.PRECISIONPLANIMETRIQUE|
+|Précision Altimétrique|_PCRS.PRECISIONALTIMETRIQUE|
+|Producteur|_PCRS.PRODUCTEUR|
+|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
+|Angle Rotation|_PCRS.ANGLEROTATION|
+|Largeur|_PCRS.LARGEUR|
+|Longueur|_PCRS.LONGUEUR|
+|Section|_PCRS.SECTION|

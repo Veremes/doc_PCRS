@@ -1,12 +1,17 @@
-#AffleurantPCRS#
+# AffleurantPCRS #
+
+
 
 **Nom de la classe**
+
 AffleurantPCRS
 
 **Sous-classe de**
- ObjetVecteurPCRS
+
+ObjetVecteurPCRS
 
 **Titre**
+
 Affleurant du PCRS
 
 **Définition**
@@ -146,14 +151,14 @@ Valeurs possibles : Nom d'application ou de base de données dans le système d'
 |Identifiant PCRS|_PCRS.ID|
 |Identifiant Objet|_PCRS.IDOBJET|
 |Thématique|_PCRS.THEMATIQUE|
-|Qualité Catégorisation:|_PCRS.QUALITECATEGORISATION|
-|Précision Planimetrique:|PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique:|_PCRS.PRECISIONALTIMETRIQUE|
+|Qualité Catégorisation|_PCRS.QUALITECATEGORISATION|
+|Précision Planimetrique|PRECISIONPLANIMETRIQUE|
+|Précision Altimétrique|_PCRS.PRECISIONALTIMETRIQUE|
 |Producteur|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ","):|Numero(s) des Point(s) Levé(s) (séparés par ","):|
+|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
 |Gestionnaire|_PCRS.GESTIONNAIRE|
-|Identifiant Source:|Identifiant Source:|
-|Nature:|_PCRS.NATURE|
-|Reseau:|_PCRS.RESEAU|
-|Source:|_PCRS.SOURCE|
-|Identifiant Affleurant Symbole:|_PCRS.IDAFFLEURANTSYMBOLE|
+|Identifiant Source|_PCRS.IDSOURCE|
+|Nature|_PCRS.NATURE|
+|Reseau|_PCRS.RESEAU|
+|Source|_PCRS.SOURCE|
+|Identifiant Affleurant Symbole|_PCRS.IDAFFLEURANTSYMBOLE|

@@ -1,3 +1,7 @@
+# LimiteVoiriePCRS #
+
+
+
 **Nom de la classe**
 
 LimiteVoiriePCRS
@@ -39,11 +43,11 @@ Limites de chaussée revêtue, marquant la limite de la voirie (exemple un bord 
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS :|_PCRS.ID|
-|Identifiant Objet:|_PCRS.IDOBJET|
-|Thématique:|_PCRS.THEMATIQUE|
-|Qualité Catégorisation:|_PCRS.QUALITECATEGORISATION|
-|Précision Planimetrique:|_PCRS.PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique:|_PCRS.PRECISIONALTIMETRIQUE|
+|Identifiant PCRS|_PCRS.ID|
+|Identifiant Objet|_PCRS.IDOBJET|
+|Thématique|_PCRS.THEMATIQUE|
+|Qualité Catégorisation|_PCRS.QUALITECATEGORISATION|
+|Précision Planimetrique|_PCRS.PRECISIONPLANIMETRIQUE|
+|Précision Altimétrique|_PCRS.PRECISIONALTIMETRIQUE|
 |Producteur|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ","):|_PCRS.NUMEROPOINT|
+|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|

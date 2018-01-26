@@ -1,3 +1,7 @@
+# MasqueOpacitePCRS #
+
+
+
 **Nom de la classe**
 
 MasqueOpacitePCRS
@@ -52,7 +56,7 @@ Classe essentielle pour l’utilisation d’orthophotoplans.
 
 | Libellé | Paramètre |
 | ---------|:-------------|
-|Identifiant PCRS :|_PCRS.ID
-|Identifiant Habillage:|_PCRS.IDHABILLAGE|
-|Thematique:|_PCRS.THEMATIQUE|
-|Transparence:|_PCRS.TRANSPARENCE|
+|Identifiant PCRS|_PCRS.ID
+|Identifiant Habillage|_PCRS.IDHABILLAGE|
+|Thematique|_PCRS.THEMATIQUE|
+|Transparence|_PCRS.TRANSPARENCE|
