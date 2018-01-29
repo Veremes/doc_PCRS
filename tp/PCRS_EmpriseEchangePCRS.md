@@ -10,6 +10,9 @@ EmpriseEchangePCRS
 
 Emprise d'échange du PCRS
 
+bonjour
+
+
 **Définition**
 
 Une emprise d'échange du PCRS constitue un élément surfacique de délimitation de l'espace public, et lorsque disponible de l'espace privé. Elle est localisée sur une commune, et peut être qualifiée par les tronçons de voirie concernés.
