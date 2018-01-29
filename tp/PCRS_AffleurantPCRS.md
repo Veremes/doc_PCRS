@@ -1,5 +1,9 @@
 # AffleurantPCRS #
 
+
+
+**Nom de la classe**
+
 AffleurantPCRS
 
 **Sous-classe de**
@@ -142,19 +146,30 @@ Valeurs possibles : Nom d'application ou de base de données dans le système d'
 
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Objet|_PCRS.IDOBJET|
-|Thématique|_PCRS.THEMATIQUE|
-|Qualité Catégorisation|_PCRS.QUALITECATEGORISATION|
-|Précision Planimetrique|PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique|_PCRS.PRECISIONALTIMETRIQUE|
-|Producteur|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
-|Gestionnaire|_PCRS.GESTIONNAIRE|
-|Identifiant Source|_PCRS.IDSOURCE|
-|Nature|_PCRS.NATURE|
-|Reseau|_PCRS.RESEAU|
-|Source|_PCRS.SOURCE|
-|Identifiant Affleurant Symbole|_PCRS.IDAFFLEURANTSYMBOLE|
+![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
+
+![Identifiant Objet](Parametres.html#Identifiant Objet_PCRS.IDOBJET)
+
+![Thématique](Parametres.html#Thématique_PCRS.THEMATIQUE)
+
+![Qualité Catégorisation](Parametres.html#Qualité Catégorisation_PCRS.QUALITECATEGORISATION)
+
+![Précision Planimetrique](Parametres.html#Précision Planimetrique PRECISIONPLANIMETRIQUE)   
+
+![Précision Altimétrique](Parametres.html#Précision Altimétrique_PCRS.PRECISIONALTIMETRIQUE)
+
+![Producteur](Parametres.html#Producteur_PCRS.PRODUCTEUR)
+
+![Numero(s) des Point(s) Levé(s) (séparés par ",")](Parametres.html#Numero(s) des Point(s) Levé(s) (séparés par ",")_PCRS.NUMEROPOINT)
+
+![Gestionnaire](Parametres.html#Gestionnaire_PCRS.GESTIONNAIRE)
+
+![Identifiant Source](Parametres.html#Identifiant Source_PCRS.IDSOURCE)
+
+![Nature](Parametres.html#Nature_PCRS.NATURE)
+
+![Reseau](Parametres.html#Reseau_PCRS.RESEAU)
+
+![Source](Parametres.html#Source_PCRS.SOURCE)
+
+![Identifiant Affleurant Symbole](Parametres.html#Identifiant Affleurant Symbole_PCRS.IDAFFLEURANTSYMBOLE)
