@@ -45,13 +45,18 @@ Ne tient pas compte des éventuels décrochements de seuil (seuils de maison, de
 
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Objet|_PCRS.IDOBJET|
-|Thématique|_PCRS.THEMATIQUE|
-|Qualité Catégorisation|QUALITECATEGORISATION|
-|Précision Planimetrique|_PCRS.PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique|_PCRS.PRECISIONALTIMETRIQUE|
-|Producteur|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
+![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
+
+![Identifiant Objet](Parametres.html#Identifiant Objet_PCRS.IDOBJET)
+
+![Thématique](Parametres.html#Thématique_PCRS.THEMATIQUE)
+
+![Qualité Catégorisation](Parametres.html#Qualité Catégorisation QUALITECATEGORISATION)
+
+![Précision Planimetrique](Parametres.html#Précision Planimetrique_PCRS.PRECISIONPLANIMETRIQUE)
+
+![Précision Altimétrique](Parametres.html#Précision Altimétrique_PCRS.PRECISIONALTIMETRIQUE)
+
+![Producteur](Parametres.html#Producteur_PCRS.PRODUCTEUR)
+
+![Numero(s) des Point(s) Levé(s) (séparés par ",")](Parametres.html#Numero(s) des Point(s) Levé(s) (séparés par ",")_PCRS.NUMEROPOINT)

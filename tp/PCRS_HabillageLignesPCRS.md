@@ -44,8 +44,8 @@ Multilignes
 
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Habillage|_PCRS.IDHABILLAGE|
-|Thematique|_PCRS.THEMATIQUE|
+![Identifiant PCRS_PCRS.ID](Parametres.html#Identifiant PCRS_PCRS.ID)
+
+![Identifiant Habillage](Parametres.html#Identifiant Habillage_PCRS.IDHABILLAGE)
+
+![Thematique](Parametres.html#Thematique_PCRS.THEMATIQUE)

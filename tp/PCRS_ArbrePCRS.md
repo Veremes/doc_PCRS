@@ -47,15 +47,21 @@ Les autres aspects de la modélisation géométrique sont propres à ceux décri
  - Contraintes : 1
 
  **Paramètres**
+ 
+![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Objet|_PCRS.IDOBJET|
-|Thématique|_PCRS.THEMATIQUE|
-|Qualité Catégorisation|_PCRS.QUALITECATEGORISATION|
-|Précision Planimetrique|PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique|PRECISIONALTIMETRIQUE|
-|Producteur|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
-|Reference:|_PCRS.REFERENCE|
+![Identifiant Objet](Parametres.html#Identifiant Objet_PCRS.IDOBJET)
+
+![Thématique](Parametres.html#Thématique_PCRS.THEMATIQUE)
+
+![Qualité Catégorisation](Parametres.html#Qualité Catégorisation_PCRS.QUALITECATEGORISATION)
+
+![Précision Planimetrique](Parametres.html#Précision Planimetrique|PRECISIONPLANIMETRIQUE)
+
+![Précision Altimétrique](Parametres.html#Précision Altimétrique|PRECISIONALTIMETRIQUE)
+
+![Producteur](Parametres.html#Producteur_PCRS.PRODUCTEUR)
+
+![Numero(s) des Point(s) Levé(s) (séparés par ",")](Parametres.html#Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT)
+
+![Reference](Parametres.html#Reference|_PCRS.REFERENCE)

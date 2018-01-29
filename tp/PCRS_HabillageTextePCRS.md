@@ -75,12 +75,10 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 
 **Pramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Habillage|_PCRS.IDHABILLAGE|
-|_PCRS.IDHABILLAGE|_PCRS.THEMATIQUE|
-|Libelle|_PCRS.LIBELLE|
-|Angle de rotation|_PCRS_ANGLEROTATION|
-|Justification|_PCRS.JUSTIFICATION|
-|Taille|_PCRS.TAILLE|
+![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
+
+![Identifiant Habillage](Parametres.html#Identifiant Habillage_PCRS.IDHABILLAGE)
+
+![_PCRS.IDHABILLAGE](Parametres.html#_PCRS.IDHABILLAGE_PCRS.THEMATIQUE)
+
+![Libelle](Parametres.html#Libelle_PCRS.LIBELLE)

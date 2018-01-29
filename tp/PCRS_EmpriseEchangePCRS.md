@@ -99,12 +99,16 @@ Les emprises d'échanges du PCRS peuvent suivre des logiques différentes :
 
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant Emprise|_PCRS.IDEMPRISE|
-|Complement|_PCRS.IDEMPRISE|
-|Date de Publication|_PCRS.DATEPUBLICATION|
-|PCRS Id|_PCRS.ID|
-|Object Id|_PCRS.OBJECT_ID|
-|Fournisseur|_PCRS.FOURNISSEUR|
-|Type|_PCRS.TYPE|
+![Identifiant Emprise](Parametres.html#Identifiant Emprise_PCRS.IDEMPRISE)
+
+![Complement](Parametres.html#Complement_PCRS.IDEMPRISE)
+
+![Date de Publication](Parametres.html#Date de Publication_PCRS.DATEPUBLICATION)
+
+![PCRS Id](Parametres.html#PCRS Id|_PCRS.ID)
+
+![Object Id](Parametres.html#Object Id|_PCRS.OBJECT_ID)
+
+![Fournisseur](Parametres.html#Fournisseur_PCRS.FOURNISSEUR)
+
+![Type](Parametres.html#Type_PCRS.TYPE)
