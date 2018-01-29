@@ -58,10 +58,10 @@ Seuls sont considérés les objets « commune » d'un jeu de données de référ
 
 **Paramètres**
 
+![Identifiant PCRS (calculé par défaut)](Parametres.html#Identifiant PCRS (calculé par défaut)_PCRS.ID)
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS (calculé par défaut):|_PCRS.ID|
-|Code INSEE:|_PCRS.COMMUNE_CODEINSEE|
-|Nom:|_PCRS.COMMUNE_NOM|
-|Reference:|_PCRS.REFERENCE|
+![Code INSEE](Parametres.html#Code INSEE_PCRS.COMMUNE_CODEINSEE)
+
+![Nom](Parametres.html#Nom_PCRS.COMMUNE_NOM)
+
+![Reference](Parametres.html#Reference|_PCRS.REFERENCE)
