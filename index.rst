@@ -18,5 +18,5 @@ La documentation est basée sur le fonctionnement du Writer PCRS pour FME de Ver
 .. toctree::
    :maxdepth: 2
 
-   tp/index.rst
-   depot2/index.rst
+   Projet_FME/index.rst
+   Writer_PCRS/index.rst
