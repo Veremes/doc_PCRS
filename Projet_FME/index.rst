@@ -1,4 +1,4 @@
-Fonctionnement du projet FME
+Fonctionnement du projet FME pour la génération de fichiers GML
 =======================
 
 .. toctree::
