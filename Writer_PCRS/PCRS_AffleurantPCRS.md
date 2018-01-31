@@ -77,7 +77,7 @@ Classe essentielle du PCRS.
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
 
-*réseau*
+*reseau*
 
 - Définition : Nature du réseau
 
