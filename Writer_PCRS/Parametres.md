@@ -1,4 +1,4 @@
-# Paramètres publiés 
+# Paramètres publiés
 
 
 **AffleurantPCRS**
@@ -92,7 +92,7 @@
 ## Complement_PCRS.IDEMPRISE ##
 
 
-## Date de Publication_PCRS.DATEPUBLICATION ## 
+## Date de Publication_PCRS.DATEPUBLICATION ##
 
 
 ## PCRS Id_PCRS.ID
@@ -111,7 +111,7 @@
 
 
 
-**FacadePCRS** 
+**FacadePCRS**
 
 ## Identifiant PCRS_PCRS.ID ##
 
@@ -119,13 +119,13 @@
 ## Identifiant Objet|_PCRS.IDOBJET ##
 
 
-## Thématique_PCRS.THEMATIQUE ## 
+## Thématique_PCRS.THEMATIQUE ##
 
 
 ## Qualité Catégorisation QUALITECATEGORISATION ##
 
 
-## Précision Planimetrique_PCRS.PRECISIONPLANIMETRIQUE ## 
+## Précision Planimetrique_PCRS.PRECISIONPLANIMETRIQUE ##
 
 
 ## Précision Altimétrique_PCRS.PRECISIONALTIMETRIQUE ##
@@ -180,7 +180,7 @@
 
 ## Reference_PCRS_REFERENCE ##
 
-## Angle de rotation_PCRS_ANGLEROTATION ## 
+## Angle de rotation_PCRS_ANGLEROTATION ##
 
 ## Angle de rotation_PCRS_ANGLEROTATION ##
 
@@ -192,7 +192,7 @@
 
 ## Identifiant Habillage_PCRS.IDHABILLAGE ##
 
-## _PCRS.IDHABILLAGE_PCRS.THEMATIQUE ## 
+## _PCRS.IDHABILLAGE_PCRS.THEMATIQUE ##
 
 ## Libelle_PCRS.LIBELLE ##
 
@@ -210,9 +210,8 @@
 
 ## Précision Planimetrique_PCRS.PRECISIONPLANIMETRIQUE ##
 
-## Précision Altimétrique_PCRS.PRECISIONALTIMETRIQUE ## 
+## Précision Altimétrique_PCRS.PRECISIONALTIMETRIQUE ##
 
 ## Producteur_PCRS.PRODUCTEUR ##
 
 ## Numero(s) des Point(s) Levé(s) (séparés par ",")_PCRS.NUMEROPOINT ##
-

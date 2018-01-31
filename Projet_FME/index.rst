@@ -1,4 +1,4 @@
-Fonctionnement du Writer PCRS pour FME
+Fonctionnement du projet FME
 =======================
 
 .. toctree::
