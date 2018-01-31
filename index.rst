@@ -5,11 +5,14 @@
 
 Documentation du PCRS
 ====================================
-Le Plan de Corps de Rue Simplifié constitue un référentiel commun de base décrivant à grande 
-échelle les limites apparentes de la voirie, aussi bien en zones urbaines denses qu’en zones 
-rurales.
+Le Plan de Corps de Rue Simplifié constitue un référentiel commun de base décrivant à grande échelle les limites apparentes de la voirie, aussi bien en zones urbaines denses qu’en zones rurales.
 
-La documentation est basée sur la version 2.0 du standard du PCRS de septembre 2017 présenté sur le site internet du Conseil National de l'Information Géographique (CNIG) : http://cnig.gouv.fr/wp-content/uploads/2017/12/CNIG_RTGE_PCRS_v2.0.pdf.
+Le GML (Geography Markup Language) est le format défini pour l’échange des données relatives au PCRS. Les spécifications du standard sont écrites dans un fichier XSD (schéma d’application du fichier GML) livré par le Conseil National de l'Information Géographique (CNIG). Le XSD constitue alors le standard de référence à respecter pour la validation des données PCRS.
+
+Dans l'optique de faciliter la production de données au format GML, Veremes propose un Writer PCRS permettant l'écriture de données PCRS dans le format GML en respectant les contraintes du standard XSD proposé par le CNIG.
+
+La documentation est basée sur le fonctionnement du Writer PCRS de Veremes en accord avec la version 2.0 du standard du PCRS de septembre 2017 présenté sur le site internet du CNIG : http://cnig.gouv.fr/wp-content/uploads/2017/12/CNIG_RTGE_PCRS_v2.0.pdf.
+
 
 
 .. toctree::
