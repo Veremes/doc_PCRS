@@ -16,25 +16,26 @@ Pile ou culée de pont du PCRS
 
 **Définition**
 
-Classe permettant de décrire les appuis massifs et permanents supportant les tabliers des ponts
+Classe permettant de décrire les appuis massifs et permanents supportant les tabliers des ponts.
 
 **Modélisation**
 
-Polyligne ouverte ou fermée (GM_Curve) Les piles de pont sont levées le long de la limite apparente avec le revêtement voisin, point à point et au niveau du sol (fil d'eau). Les autres aspects de la modélisation géométrique sont propres à  ceux décrits dans la modélisation des objets linéaires de la classe abstraite ObjetVecteurPCRS
+Polyligne ouverte ou fermée (GM_Curve) <br>
+Les piles de pont sont levées le long de la limite apparente avec le revêtement voisin, point à point et au niveau du sol (fil d'eau). Les autres aspects de la modélisation géométrique sont propres à  ceux décrits dans la modélisation des objets linéaires de la classe abstraite ObjetVecteurPCRS.
 
 **La classe contient**
 
-Pile (appuis intermédiaires) ou culées (appuis d'extrémité)
+Pile (appuis intermédiaires) ou culées (appuis d'extrémité).
 
 **Critère de sélection**
 
-Appuis massifs et permanents supportant le tablier d'un pont
+Appuis massifs et permanents supportant le tablier d'un pont.
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
-- Définition : Géométrie de type polygone .
+- Définition : Géométrie de type polygone
 
 - Type : GM_Polygon
 

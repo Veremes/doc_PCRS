@@ -20,9 +20,8 @@ Classe permettant de décrire les arbres régulièrement entretenus de la voirie
 
 **Modélisation**
 
- Point (GM_Point) L'arbre est modélisé par un point levé en axe du tronc, à hauteur du terrain naturel hors éventuel monticule au pied.
-
-Les autres aspects de la modélisation géométrique sont propres à ceux décrits dans la modélisation des objets linéaires de la classe abstraite ObjetVecteurPCRS.
+ Point (GM_Point) <br>
+ L'arbre est modélisé par un point levé en axe du tronc, à hauteur du terrain naturel hors éventuel monticule au pied.
 
 **La classe contient**
 
@@ -30,15 +29,15 @@ Les autres aspects de la modélisation géométrique sont propres à ceux décri
 
  **Attributs**
 
-*géométrie*
+*geometrie*
 
  - Type : GM_Point
 
  - Contraintes : 1
 
-*référence*
+*reference*
 
- - Définition : Désignation du symbole à utiliser pour la représentation de l'arbre.
+ - Définition : Désignation du symbole à utiliser pour la représentation de l'arbre
 
  - Type : CharacterString
 
@@ -47,7 +46,7 @@ Les autres aspects de la modélisation géométrique sont propres à ceux décri
  - Contraintes : 1
 
  **Paramètres**
- 
+
 ![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
 
 ![Identifiant Objet](Parametres.html#Identifiant Objet_PCRS.IDOBJET)

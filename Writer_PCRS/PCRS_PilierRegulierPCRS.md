@@ -42,9 +42,9 @@ Lorsque le pilier est associé à un socle ou à un mur, ses dimensions au sol d
 
 - Contraintes : 1 Valeur non vide
 
-*géométrie*
+*geometrie*
 
-- Définition : Géométrie de type point.
+- Définition : Géométrie de type point
 
 - Type : GM_Point
 
@@ -52,7 +52,7 @@ Lorsque le pilier est associé à un socle ou à un mur, ses dimensions au sol d
 
 *largeur_mm*
 
-- Définition : Utilisé uniquement pour la mise à l'échelle Y du symbole de poteau après rotation.
+- Définition : Utilisé uniquement pour la mise à l'échelle Y du symbole de poteau après rotation
 
 - Type : Décimal
 
@@ -68,7 +68,7 @@ Lorsque le pilier est associé à un socle ou à un mur, ses dimensions au sol d
 
 *section*
 
-- Définition : Forme de la section à la base du PilierRegulierPCRS
+- Définition : Forme de la section à la base du pilier
 
 - Type : SectionPilierPCRSType
 
@@ -78,6 +78,7 @@ Lorsque le pilier est associé à un socle ou à un mur, ses dimensions au sol d
   - 02 = Pilier circulaire
   - 03 = Pilier rectangulaire
   - 00 = Pilier à autre forme de section
+
 
 - Contraintes : 1 Valeur non vide : l'attribut est utilisé pour différencier les piliers selon leur nature
 

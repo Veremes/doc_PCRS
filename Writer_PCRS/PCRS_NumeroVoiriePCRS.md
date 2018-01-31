@@ -21,7 +21,7 @@ Les numéros de voirie du PCRS doivent être positionnés de façon à permettre
 
 **Modélisation**
 
-Point (propriété de la classe généralisée HabillageTextePCRS)
+Point (propriété de la classe généralisée HabillageTextePCRS) <br>
 Libellé de type texte positionnant de façon ponctuelle le numéro d'adresse.
 
 **Contraintes**
@@ -36,13 +36,13 @@ Contraintes de positionnement en dehors de l'espace public de la voirie, en part
 
 - Type : CharacterString
 
-- Valeurs possibles : Selon la collectivité gestionnaire du PCRS, et si possible identique à celui du référentiel dont est issu la donnée .
+- Valeurs possibles : Selon la collectivité gestionnaire du PCRS, et si possible identique à celui du référentiel dont est issu la donnée
 
 - Contraintes : 1 Valeur unique
 
 *positionnement*
 
-- Définition : Indication quant au positionnement de l'élément d'habillage par rapport à la voirie .
+- Définition : Indication quant au positionnement de l'élément d'habillage par rapport à la voirie
 
 - Type : CategoriePlacementPCRSType
 
@@ -52,6 +52,7 @@ Contraintes de positionnement en dehors de l'espace public de la voirie, en part
   - 03 = LimiteVoirie
   - 04 = HorsVoirie
   - 05 = Parcelle
+
 
 - Contraintes : 0..1
 

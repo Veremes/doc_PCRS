@@ -20,7 +20,7 @@ Classe spécialisée de la classe abstraite HabillagePCRS permettant de décrire
 
 **Modélisation**
 
-Point (propriété de la classe généralisée HabillagePCRS) Point de référence au centre du symbole, dont on précisera la référence, les dimensions inscrites dans un rectangle (longueur, largeur), et l'orientation spécifique.
+Point (propriété de la classe généralisée HabillagePCRS) <br> Point de référence au centre du symbole, dont on précisera la référence, les dimensions inscrites dans un rectangle (longueur, largeur), et l'orientation spécifique.
 
 **Contraintes**
 
@@ -38,9 +38,9 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 
 - Contraintes : 1 valeur non vide
 
-*géométrie*
+*geometrie*
 
-- Définition : Géométrie de type ponctuel .
+- Définition : Géométrie de type ponctuel
 
 - Type : GM_Point
 
@@ -62,9 +62,9 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 
 - Contraintes : 1 Valeur non vide
 
-*référence*
+*reference*
 
-- Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole .
+- Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole
 
 - Type : CharacterString
 

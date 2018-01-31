@@ -16,7 +16,8 @@ Le tronçon de voirie du PCRS est un segment d'axe de voie entre deux intersecti
 
 **Modélisation**
 
-Polyligne Le tronçon de voirie s'appuie sur les tronçons du filaire des voies entretenu par la collectivité gestionnaire du PCRS, et pouvant s'appuyer sur des référentiels comme la BDUni ou la BD TOPO
+Polyligne <br>
+Le tronçon de voirie s'appuie sur les tronçons du filaire des voies entretenu par la collectivité gestionnaire du PCRS, et pouvant s'appuyer sur des référentiels comme la BDUni ou la BD TOPO.
 
 **Contraintes**
 
@@ -24,7 +25,7 @@ Classe accompagnant les métadonnées de publication du PCRS.
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie de type courbe
 
@@ -32,9 +33,9 @@ Classe accompagnant les métadonnées de publication du PCRS.
 
 - Contraintes : 1
 
-*propriété*
+*propriete*
 
-- Définition : Distinction d'appartenance  d'un tronçon de voirie à l'espace public ou à l'espace privé.
+- Définition : Distinction d'appartenance  d'un tronçon de voirie à l'espace public ou à l'espace privé
 
 - Type : ProprieteEspaceType
 
@@ -42,10 +43,11 @@ Classe accompagnant les métadonnées de publication du PCRS.
 
   - 01 = Espace public
   - 02 = Espace privé
+  
 
 - Contraintes : 0..1 Optionnel à renseigner si possible, lorsqu'une superposition avec les données cadastrales n'est pas envisageable
 
-*référence*
+*reference*
 
 - Définition : Identifiant unique du tronçon dans le référentiel source utilisé
 

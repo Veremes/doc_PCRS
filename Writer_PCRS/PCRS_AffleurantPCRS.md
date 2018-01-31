@@ -16,7 +16,7 @@ Affleurant du PCRS
 
 **Définition**
 
-Classe permettant de décrire une partie d'un réseau existant visible depuis la surface
+Classe permettant de décrire une partie d'un réseau existant visible depuis la surface.
 IMPORTANT : un affleurant de réseau correspond à un objet métier géré non pas par la collectivité gestionnaire du PCRS mais par l'opérateur gestionnaire du réseau. Il figure toutefois dans la liste des objets échangés dans un PCRS de façon à partager la localisation précise de tous les objets d'un réseau visibles depuis la surface. Chaque gestionnaire reste responsable de ses affleurants.
 
 **Modélisation**
@@ -25,11 +25,11 @@ Selon les classes d'affleurant spécialisées, et représentées (de préférenc
 
 **La classe contient**
 
-Bouches, avaloirs, regards, plaques, poteaux, coffrets ...
+Bouches, avaloirs, regards, plaques, poteaux, coffrets...
 
 **Contraintes**
 
-Classe essentielle du PCRS
+Classe essentielle du PCRS.
 
 **Attributs**
 
@@ -59,21 +59,21 @@ Classe essentielle du PCRS
 
 - Type : NatureAffleurantPCRSType
 
-- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux.
+- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux
 
-01 = avaloirs
+  01 = avaloirs
 
-02 = Boîte, Coffret, Armoire
+  02 = Boîte, Coffret, Armoire
 
-03 = Tampon, plaque, chambre
+  03 = Tampon, plaque, chambre
 
-04 = Branchement, vanne, bouche à clé
+  04 = Branchement, vanne, bouche à clé
 
-05 = Bouche incendie, Poteau incendie
+  05 = Bouche incendie, Poteau incendie
 
-06 = poteaux
+  06 = poteaux
 
-07 = Poteau/borne d'éclairage
+  07 = Poteau/borne d'éclairage
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
 
@@ -85,35 +85,35 @@ Classe essentielle du PCRS
 
 - Valeurs possibles :
 
-ASSAEU = Eaux usées
+  ASSAEU = Eaux usées
 
-ASSARU = Réseau unitaire
+  ASSARU = Réseau unitaire
 
-00 = Non défini
+  00 = Non défini
 
-ASSA = Assainissement ou pluvial
+  ASSA = Assainissement ou pluvial
 
-AEP = Eau potable
+  AEP = Eau potable
 
-ELECECL = Electricité
+  ELECECL = Electricité
 
-GAZ = Gaz
+  GAZ = Gaz
 
-MULT = Multi-réseaux
+  MULT = Multi-réseaux
 
-ELECSLT = Signalisation lumineuse tricolore
+  ELECSLT = Signalisation lumineuse tricolore
 
-COM = Télécom
+  COM = Télécom
 
-ASSAEP = Eaux pluviales
+  ASSAEP = Eaux pluviales
 
-DECH = déchets
+  DECH = déchets
 
-INCE = Incendie
+  INCE = Incendie
 
-CHIM = Produits chimiques
+  CHIM = Produits chimiques
 
-CHAU = Chauffage et climatisation
+  CHAU = Chauffage et climatisation
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
 
@@ -124,21 +124,21 @@ CHAU = Chauffage et climatisation
 
 - Type : CharacterString
 
-Valeurs possibles : Nom d'application ou de base de données dans le système d'information du gestionnaire de réseaux
+- Valeurs possibles : Nom d'application ou de base de données dans le système d'information du gestionnaire de réseaux
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
 
 *symbolisation*
 
-- Définition :
+- Définition : Lien vers une représentation symbolique
 
 - Type : Classe d'objets AffleurantSymbolePCRS
 
 - Contraintes 0..1
 
-*représentations*
+*representations*
 
-- Liens vers une représentation de type géométrique
+- Définition : Liens vers une représentation de type géométrique
 
 - Type : Classe d'objets AffleurantGeometriquePCRS
 

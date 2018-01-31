@@ -16,15 +16,13 @@ Rail d'un tronçon de voie ferrée
 
 **Définition**
 
-Classe permettant de décrire de façon unitaire et continue l'assemblage de rails d'un tronçon de voie ferrée. Un rail est un guide linéaire constitué de profilés d'acier laminés soudés bout à bout, et constituant le chemin de roulement et de guidage des roues des véhicules ferroviaires. Une voie ferroviaire simple est constituée de deux rails parallèles et à écartement fixe et standardisé qui peut être différent par pays (1,435m en France).
+Classe permettant de décrire de façon unitaire et continue l'assemblage de rails d'un tronçon de voie ferrée. Un rail est un guide linéaire constitué de profilés d'acier laminés soudés bout à bout, et constituant le chemin de roulement et de guidage des roues des véhicules ferroviaires. Une voie ferroviaire simple est constituée de deux rails parallèles et à écartement fixe et standardisé qui peut être différent par pays (1,435 m en France).
 
 **Modélisation**
 
-Polylignes
-cf. modélisation des objets linéaires de la classe abstraite  ObjetVecteurPCRS
+Polylignes <br>
 Le levé topographique d'une voie ferrée simple est effectué rail par rail et toujours à l'intérieur vers l'axe de la voie, de façon à maintenir un écart uniforme entre les deux polylignes, et égal à l'écartement du rail. Le nivellement de chaque point de levé doit correspondre à un point situé sur la partie supérieure du rail en contact au niveau de la bande de roulement. Le nivellement des deux rails d'une même section transversale d'une voie simple est normalement identique pour un alignement droit et peut être différent pour une courbe ou une clothoïde (raccordement entre courbe et alignement droit) selon le tracé en plan de la voie ferrée.
-Le gestionnaire du PCRS a toute latitude pour préciser lorsque les circonstances le justifient d'autres modes de levé (typiquement dans l'axe du rail au milieu de la bande de roulement sur un rail Vignole) : le cahier des charges ainsi que les Métadonnées de livraison devront alors explicitement préciser le mode de levé associé
-CNIG Plan du Corps de Rue Simplifié 68 / 89
+Le gestionnaire du PCRS a toute latitude pour préciser lorsque les circonstances le justifient d'autres modes de levé (typiquement dans l'axe du rail au milieu de la bande de roulement sur un rail Vignole) : le cahier des charges ainsi que les Métadonnées de livraison devront alors explicitement préciser le mode de levé associé.
 Un rail est souvent décrit dans le secteur ferroviaire par emprises et par tronçons. Cette description « métier » peut être conservée dans le PCRS, mais les attributs servant à la décrire ne font pas à proprement parler partie du PCRS.
 
 **La classe contient**
@@ -42,9 +40,9 @@ Ne concerne que les voies situées sur le domaine public ou en assurant sa desse
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
-- Définition : Géométrie de type courbe.
+- Définition : Géométrie de type courbe
 
 - Type : GM_Curve
 

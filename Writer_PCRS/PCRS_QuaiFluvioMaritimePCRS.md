@@ -20,7 +20,7 @@ Ouvrage le long de berge, de rive ou de rivage d'un port ou d'une voie navigable
 
 **Modélisation**
 
-Polyligne Les quais sont levés au nez du quai. Les autres aspects de la modélisation géométrique sont propres à  ceux décrits dans la modélisation des objets linéaires de la classe abstraite ObjetVecteurPCRS.
+Polyligne <br>Les quais sont levés au nez du quai.
 
 **La classe contient**
 - Quais    
@@ -31,7 +31,7 @@ Classe essentielle du PCRS
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie de quai
 

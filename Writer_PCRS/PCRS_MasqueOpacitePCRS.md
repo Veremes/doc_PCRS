@@ -28,9 +28,9 @@ Classe essentielle pour l’utilisation d’orthophotoplans.
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
-- Définition : Géométrie de type surfacique représentant la zone masquée .
+- Définition : Géométrie de type surfacique représentant la zone masquée
 
 - Type : GM_Surface  
 
@@ -44,7 +44,7 @@ Classe essentielle pour l’utilisation d’orthophotoplans.
 
 *transparence*
 
-- Définition : Pourcentage de transparence inversement proportionnelle à l'opacité de la zone .
+- Définition : Pourcentage de transparence inversement proportionnelle à l'opacité de la zone
 
 - Type : Integer
 

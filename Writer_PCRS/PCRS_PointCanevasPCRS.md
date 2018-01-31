@@ -16,11 +16,11 @@ Points de canevas topographique
 
 **Définition**
 
-Un canevas topographique est constitué d'un ensemble de points matérialisés sur le terrain, repérés en coordonnées XY et Z dans les référentiels géographiques planimétriques et altimétriques en vigueur, facilitant ainsi la production de séries de données géographiques cohérentes et homogènes lors des levés topographiques réalisés par les géomètres. Ils disposent d'une immatriculation spécifique au canevas utilisé et sont en général documentés par une fiche signalétique accessible au public
+Un canevas topographique est constitué d'un ensemble de points matérialisés sur le terrain, repérés en coordonnées XY et Z dans les référentiels géographiques planimétriques et altimétriques en vigueur, facilitant ainsi la production de séries de données géographiques cohérentes et homogènes lors des levés topographiques réalisés par les géomètres. Ils disposent d'une immatriculation spécifique au canevas utilisé et sont en général documentés par une fiche signalétique accessible au public.
 
 **Modélisation**
 
-Point Lorsque l'altimétrie du point de canevas est disponible, il est obligatoire de la fournir sous forme de coordonnée Z
+Point <br>Lorsque l'altimétrie du point de canevas est disponible, il est obligatoire de la fournir sous forme de coordonnée Z.
 
 **La classe contient**
 
@@ -32,7 +32,7 @@ La modélisation conceptuelle des points de canevas est uniquement topographique
 
 **Critères de sélection**
 
-Les points de canevas dont la précision ne serait pas au moins égale à celle attendue lors du levé topographique des objets du PCRS sont exclus de cette classe d'objets
+Les points de canevas dont la précision ne serait pas au moins égale à celle attendue lors du levé topographique des objets du PCRS sont exclus de cette classe d'objets.
 
 **Attributs**
 
@@ -60,7 +60,7 @@ Les points de canevas dont la précision ne serait pas au moins égale à celle 
 
 - Contraintes : 0..1
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie du point
 
@@ -76,15 +76,15 @@ Les points de canevas dont la précision ne serait pas au moins égale à celle 
 
 - Contraintes : 0..1  Optionnel  : lorsque le matricule du point est connu, il est obligatoire de le renseigner
 
-*PrécisionXY*
+*PrecisionXY*
 
-- Définition : 0..1  Optionnel  : lorsque le matricule du point est connu, il est obligatoire de le renseigner
+- Définition : Précision planimétrique exprimée en cm
 
 - Type : Integer
 
 - Contraintes : 0..1  Optionnel, à renseigner si disponible
 
-*PrécisionZ*
+*PrecisionZ*
 
 - Définition : Précision altimétrique exprimée en cm
 

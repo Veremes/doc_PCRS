@@ -20,7 +20,8 @@ Classe permettant de décrire une « marche permettant de franchir une dénivell
 
 **Modélisation**
 
-Polyligne Un escalier est composé d'une ou plusieurs portions, séparées par des paliers intermédiaires. Une portion est composée d'une ou plusieurs marches, et un symbole peut être attaché à chaque portion d'escalier. Les paliers intermédiaires peuvent si besoin être décrits au moyen des dernières marches de chaque portion d'escalier.
+Polyligne <br>
+Un escalier est composé d'une ou plusieurs portions, séparées par des paliers intermédiaires. Une portion est composée d'une ou plusieurs marches, et un symbole peut être attaché à chaque portion d'escalier. Les paliers intermédiaires peuvent si besoin être décrits au moyen des dernières marches de chaque portion d'escalier.
 Les rampes d’accès sont levées aux ruptures de pentes.  
 
 **La classe contient**
@@ -38,7 +39,7 @@ L'escalier du PCRS doit obligatoirement être situé à l'extérieur, et propose
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Type : GM_Curve
 

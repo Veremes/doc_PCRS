@@ -16,7 +16,7 @@ Cette classe permet de référencer une commune présente dans un référentiel 
 
 **Modélisation**
 
- Multi Polygone (GM_MultiPolygon) Les communes sont modélisées par un ensemble de polygones. La géométrie est indicative et la précision géométrique accordée importe peu.
+ Multi Polygone (GM_MultiPolygon) <br> Les communes sont modélisées par un ensemble de polygones. La géométrie est indicative et la précision géométrique accordée importe peu.
 
 **Critères de sélection**
 
@@ -24,7 +24,7 @@ Seuls sont considérés les objets « commune » d'un jeu de données de référ
 
 **Attributs**
 
-*Code INSEE*
+*codeINSEE*
 
 - Définition : Code INSEE de la commune
 
@@ -32,7 +32,7 @@ Seuls sont considérés les objets « commune » d'un jeu de données de référ
 
 - Contraintes : 1
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie de la commune
 
@@ -48,7 +48,7 @@ Seuls sont considérés les objets « commune » d'un jeu de données de référ
 
 - Contraintes : 0..1
 
-*référence*
+*reference*
 
 - Définition : Référence vers une base de données des communes
 

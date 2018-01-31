@@ -20,14 +20,17 @@ Classe permettant de décrire l'ensemble des constructions liées au bâtiment, 
 
 **Modélisation**
 
-Polyligne La proéminence du bâti est levée point par point au niveau du trottoir et au sens de l'emprise maximum du bâtiment sur le domaine public.
+Polyligne <br>
+La proéminence du bâti est levée point par point au niveau du trottoir et au sens de l'emprise maximum du bâtiment sur le domaine public.
 Les autres aspects de la modélisation géométrique sont propres à  ceux décrits dans la modélisation des objets linéaires de la classe abstraite ObjetVecteurPCRS.
 
 **La classe contient**
 
-Perron, marche de maison
-Terrasse - Devanture
-Véranda
+- Perron
+- Marche de maison
+- Terrasse
+- Devanture
+- Véranda
 
 **Critères de sélection**
 
@@ -35,7 +38,7 @@ Ne comprend pas les caves.
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie de type courbe
 

@@ -20,14 +20,13 @@ Classe spécialisée de la classe abstraite HabillagePCRS permettant de décrire
 
 **Modélisation**
 
-Point (propriété de la classe généralisée HabillagePCRS) Libellé de type texte positionné de façon ponctuelle, avec possibilité de spécifier une orientation spécifique.
+Point (propriété de la classe généralisée HabillagePCRS) <br>Libellé de type texte positionné de façon ponctuelle, avec possibilité de spécifier une orientation spécifique.
 
 **La classe contient**
 
-- les toponymes,
-- les coordonnées planimétriques,
-- les altimétries,
-...
+- les toponymes
+- les coordonnées planimétriques
+- les altimétries ...
 
 **Contraintes**
 
@@ -45,7 +44,7 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 
 - Contraintes : 1
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie de type point
 
@@ -60,8 +59,20 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 - Type : TexteJustificationPCRSType
 
 - Valeurs possibles :
-+-  - C = centré
-  - D = droite
+  - G = Gauche
+  - C = Centré
+  - D = Droite
+
+
+- Contraintes : 1
+
+*libelle*
+
+- Définition : Texte du libellé à utiliser comme habillage du PCRS
+
+- Type : CharacterString
+
+- Valeurs possibles : Valeur textuelle. Exemple : 123 m
 
 - Contraintes : 1
 

@@ -20,9 +20,8 @@ Plate-forme le long des voies pour le chargement ou le déchargement à niveau d
 
 **Modélisation**
 
-Polyligne
+Polyligne <br>
 Les quais sont levés au nez du quai.
-Les autres aspects de la modélisation géométrique sont propres à  ceux décrits dans la modélisation des objets linéaires de la classe abstraite ObjetVecteurPCRS.
 
 **Contraintes**
 
@@ -30,7 +29,7 @@ Classe essentielle du PCRS.
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie du quai
 

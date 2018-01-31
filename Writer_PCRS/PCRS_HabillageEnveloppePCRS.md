@@ -2,7 +2,7 @@
 
 
 
-##Nom de la classe##
+**Nom de la classe**
 
 HabillageEnveloppePCRS
 
@@ -16,18 +16,20 @@ Enveloppe d’habillage
 
 **Définition**
 
-Classe spécialisée de la classe abstraite <HabillagePCRS> permettant de décrire tous les éléments d'habillage de type surfaciques utiles à la compréhension du PCRS.
+Classe spécialisée de la classe abstraite "HabillagePCRS" permettant de décrire tous les éléments d'habillage de type surfaciques utiles à la compréhension du PCRS.
 
 **Modélisation**
 
-Surfacique La classe contient :
+Surfacique
+
+**La classe contient**
+
 - les mobiliers urbains
--  
-...
+- ...
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie de type surfacique
 

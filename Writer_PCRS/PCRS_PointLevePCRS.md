@@ -12,11 +12,11 @@ Point levé du PCRS
 
 **Définition**
 
-Point géoréférencé en planimétrie, ou planimétrie et altimétrie du PCRS
+Point géoréférencé en planimétrie, ou planimétrie et altimétrie du PCRS.
 
 **Modélisation**
 
-Point La modélisation géométrique par point(s) est propre à chacun des objets du PCRS, elle sera donc décrite dans la partie du catalogue propre à chacun des objets dérivés de la classe ObjetVecteurPCRS (paragraphes B.3.17 à B.3.31)
+Point
 
 **La classe contient**
 
@@ -40,7 +40,7 @@ Tout point servant à qualifier un objet du PCRS en tant que support pour une co
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie de type ponctuel
 
@@ -72,9 +72,9 @@ Tout point servant à qualifier un objet du PCRS en tant que support pour une co
 
 - Type : Integer
 
-- Contraintes : 1 Optionnel,
+- Contraintes : 1 Optionnel
 
-*précisionZ*
+*precisionZ*
 
 - Définition : Précision altimétrique exprimée en cm
 
@@ -86,9 +86,9 @@ Tout point servant à qualifier un objet du PCRS en tant que support pour une co
 
 - Définition : Producteur de la donnée
 
-- Type :CharacterString
+- Type : CharacterString
 
-- Valeurs possibles : La valeur sera saisie et déterminée par le producteur de façon stable. Cet attribut permettra de filtrer l'ensemble des objets d'un producteur donné .
+- Valeurs possibles : La valeur sera saisie et déterminée par le producteur de façon stable. Cet attribut permettra de filtrer l'ensemble des objets d'un producteur donné
 
 - Contraintes : 1
 

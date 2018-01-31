@@ -20,11 +20,16 @@ Classe permettant de décrire l'ensemble des portes, portes cochères, portails,
 
 **Modélisation**
 
-Ligne La ligne est définie comme le segment reliant deux points levés (dans le même sens que le levé de façade du bâtiment ou du mur), et de part et d'autre de l'ouverture du bâtiment ou du mur Le point de seuil, déterminé par calcul, est situé à l'axe du seuil, et sert éventuellement à positionner un symbole décrit par un objet SymboleHabillagePCRS.
+Ligne <br>
+La ligne est définie comme le segment reliant deux points levés (dans le même sens que le levé de façade du bâtiment ou du mur), et de part et d'autre de l'ouverture du bâtiment ou du mur Le point de seuil, déterminé par calcul, est situé à l'axe du seuil, et sert éventuellement à positionner un symbole décrit par un objet SymboleHabillagePCRS.
 
 **La classe contient**
-Seuil piéton (ou seuil de maison)  Seuil véhicule (ou seuil de garage) ( © Brest métropole) Seuil d’ouverture
-Seuil piéton (ou seuil de maison).
+
+- Seuil piéton (ou seuil de maison)  
+
+- Seuil véhicule (ou seuil de garage)
+
+- Seuil d’ouverture
 
 **Critères de sélection**
 
@@ -32,7 +37,7 @@ Seuil piéton (ou seuil de maison).
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie de type courbe
 

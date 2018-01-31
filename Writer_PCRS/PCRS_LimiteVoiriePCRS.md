@@ -20,7 +20,7 @@ Toute limite apparente de la chaussée, caractérisée par une bordure ou un cha
 
 **Modélisation**
 
-Polyligne
+Polyligne <br>
 Les changements de revêtement sont levés point à point au niveau du sol.
 Les quais, bordures, bordurettes... qui marquent la limite de la chaussée sont levés point à point, le long du fil d'eau uniquement. Pour les nouveaux levés, il est conseillé de laisser l’objet à gauche.
 Les autres aspects de la modélisation géométrique sont propres à  ceux décrits dans la modélisation des objets linéaires de la classe abstraite ObjetVecteurPCRS.
@@ -31,11 +31,11 @@ Limites de chaussée revêtue, marquant la limite de la voirie (exemple un bord 
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Définition : Géométrie de type courbe
 
--Type : GM_Curve
+- Type : GM_Curve
 
 - Contraintes : 1
 
@@ -45,7 +45,7 @@ Limites de chaussée revêtue, marquant la limite de la voirie (exemple un bord 
 
 ![Identifiant Objet](Parametres.html#Identifiant Objet_PCRS.IDOBJET)
 
-![Thématique](Parametres.html#Thématique_PCRS.THEMATIQUE) 
+![Thématique](Parametres.html#Thématique_PCRS.THEMATIQUE)
 
 ![Qualité Catégorisation](Parametres.html#Qualité Catégorisation_PCRS.QUALITECATEGORISATION)
 

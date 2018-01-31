@@ -20,17 +20,37 @@ Classe permettant de décrire les ouvrages de maçonnerie (très souvent en briq
 
 **Modélisation**
 
-Polyligne cf. modélisation des objets linéaires de la classe abstraite ObjetVecteurPCRS Les murs sont levés point par point, au sol, sur chaque côté du domaine public, et complété le cas échéant par un levé point par point, au sol, du côté du domaine privé accessible. Les murs peuvent être indifféremment décrits par leurs côtés sous la forme de polylignes ouvertes, ou par une description plus composite assemblant les polylignes ouvertes et refermant les extrémités pour constituer une unique polyligne fermée.
+Polyligne <br>
+Les murs sont levés point par point, au sol, sur chaque côté du domaine public, et complété le cas échéant par un levé point par point, au sol, du côté du domaine privé accessible. Les murs peuvent être indifféremment décrits par leurs côtés sous la forme de polylignes ouvertes, ou par une description plus composite assemblant les polylignes ouvertes et refermant les extrémités pour constituer une unique polyligne fermée.
 Le PCRS ne s'attache pas à décrire ni la hauteur du mur ni son épaisseur, ni même le matériau le constituant.
-On ne cherchera à modéliser les piliers distribués le long ou aux extrémités de murs seulement lorsque leurs dimensions au sol sont différenciables de la largeur du mur, auquel cas de tels piliers seront décrits par des objets de type <PilierPCRS>.
+On ne cherchera à modéliser les piliers distribués le long ou aux extrémités de murs seulement lorsque leurs dimensions au sol sont différenciables de la largeur du mur, auquel cas de tels piliers seront décrits par des objets de type "PilierPCRS".
 
 **La classe contient**
 
-Mur, bahut, gabion
+- Mur, bahut, gabion
+
+- Mur de soutènement
+
+- Parapet, garde-Corps
+
+- Clôture sur socle ou Bahut avec clôture
+
+- Enrochements
+
+**Contraintes**
+
+Afin de faciliter les représentations de type DAO, il est recommandé par convention que l’intérieur du mur porteur de la matière (briques, parpaings, béton, pierre...) se situe à gauche de la polyligne prise dans l’ordre de ses sommets et par conséquent que la région vers l'extérieur associée au sol se situe à droite.
+Toute autre convention ou absence de convention dans l'ordre des sommets devra explicitement être mentionnée dans les métadonnées de publication du PCRS.
+Classe essentielle du PCRS.
+
+**Critères de sélection**
+
+Les murs de pierre taillée ou non, ou constitués d'assemblages de bloc sont susceptibles de présenter des irrégularités incompatibles avec les exigences de précision du PCRS : ils ne constituent donc pas à proprement parler des murs du PCRS.
+Ils doivent toutefois être décrits en renseignant spécifiquement les précisions planimétriques et/ou altimétriques par des valeurs très supérieures à celles exigées pour le PCRS.
 
 **Attributs**
 
-*géométrie*
+*geometrie*
 
 - Type : GM_Curve
 

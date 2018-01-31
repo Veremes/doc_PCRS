@@ -20,25 +20,30 @@ Le modèle de données prévoit la gestion de la composante image : ainsi, l'emp
 
 **Modélisation**
 
-Surface La collectivité gestionnaire du PCRS a toute latitude quant à la définition géométrique des emprises de publication du PCRS. Il est toutefois conseillé de publier le PCRS à au moins deux niveaux complémentaires d'emprises, à savoir un niveau continu (ou régulier, fixe) et associé à un découpage régulier du territoire (comme un carroyage) et un niveau discontinu (ou irrégulier, variable) correspondant à des découpages à base d’entités (tronçons, voire communes…).
+Surface <br>
+La collectivité gestionnaire du PCRS a toute latitude quant à la définition géométrique des emprises de publication du PCRS. Il est toutefois conseillé de publier le PCRS à au moins deux niveaux complémentaires d'emprises, à savoir un niveau continu (ou régulier, fixe) et associé à un découpage régulier du territoire (comme un carroyage) et un niveau discontinu (ou irrégulier, variable) correspondant à des découpages à base d’entités (tronçons, voire communes…).
 
 **La classe contient**
 
 Les emprises d'échanges du PCRS peuvent suivre des logiques différentes :
-- les emprises de type couloir, c'est à dire associées à un axe de voirie et définies d'une part par les limites apparentes des propriétés privées étendues perpendiculairement à l'axe de voirie d'environ 15 mètres (à adapter localement), et d'autre part en incluant les surfaces tampon associées aux amorces de voies aux intersections et sur une longueur d'environ 10 mètres (à adapter localement).
 
-- par extension des emprises de type couloir, il est également possible d'inclure dans cette définition géométrique toute surface de l'espace public ou privé bornée par des limites apparentes de propriétés privées et n'incluant pas d'axe de voirie.
-- les emprises de type opération, c'est à dire associées à une opération particulière impactant le PCRS, par exemple la pose de rails de tramway. Ce type d'emprise ne contient aucune information de gestion quant à l'opération concernée, mais permet par exemple de regrouper des emprises élémentaires de type couloir disposant de caractéristiques communes
-- les emprises de type casé, liées à un carroyage particulier - les emprises de type limite administrative, permettant d'accéder à l'intégralité d'un PCRS sur une limite administrative donnée, et en particulier par commune
+- les emprises de type couloir, c'est à dire associées à un axe de voirie et définies d'une part par les limites apparentes des propriétés privées étendues perpendiculairement à l'axe de voirie d'environ 15 mètres (à adapter localement), et d'autre part en incluant les surfaces tampon associées aux amorces de voies aux intersections et sur une longueur d'environ 10 mètres (à adapter localement),
+
+- par extension des emprises de type couloir, il est également possible d'inclure dans cette définition géométrique toute surface de l'espace public ou privé bornée par des limites apparentes de propriétés privées et n'incluant pas d'axe de voirie,
+
+- les emprises de type opération, c'est à dire associées à une opération particulière impactant le PCRS, par exemple la pose de rails de tramway. Ce type d'emprise ne contient aucune information de gestion quant à l'opération concernée, mais permet par exemple de regrouper des emprises élémentaires de type couloir disposant de caractéristiques communes,
+
+- les emprises de type casé, liées à un carroyage particulier - les emprises de type limite administrative, permettant d'accéder à l'intégralité d'un PCRS sur une limite administrative donnée, et en particulier par commune,
+
 - les emprises de type raster, éventuellement liées à un carroyage particulier, et permettant de référencer une image à haute ou très haute résolution.
 
- **Contraintes**
+**Contraintes**
 
  Classe essentielle du PCRS, accompagnant les métadonnées de publication du PCRS.
 
  **Attributs**
 
- *complément*
+ *complement*
 
  - Définition : Information complémentaire liée au type d'emprise de publication du PCRS, gérée par le gestionnaire  du PCRS et potentiellement à tout utilisateur du PCRS
 
@@ -89,9 +94,9 @@ Les emprises d'échanges du PCRS peuvent suivre des logiques différentes :
 
 - Contraintes : 1
 
-*géométrie*
+*geometrie*
 
-- Définition : Géométrie représentée par un ensemble de surface .
+- Définition : Géométrie représentée par un ensemble de surface
 
 - Type : GM_MultiSurface
 
