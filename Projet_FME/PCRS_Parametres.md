@@ -2,7 +2,7 @@
 
 
 [# AffleurantPCRS #](#test)
-##titre <a id="test"></a>
+
 Angle Rotation
 Angle de rotation
 Canevas
