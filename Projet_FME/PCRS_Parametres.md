@@ -1,5 +1,7 @@
 # Paramètres publiés #
 
+[# AffleurantPCRS #](/Writer_PCRS\PCRS_AffleurantPCRS.md)
+
 
 [# AffleurantPCRS #](#test)
 
