@@ -41,7 +41,7 @@ Les emprises d'échanges du PCRS peuvent suivre des logiques différentes :
 
  Classe essentielle du PCRS, accompagnant les métadonnées de publication du PCRS.
 
- **Attributs**
+ **Géométrie**
 
  *complement*
 

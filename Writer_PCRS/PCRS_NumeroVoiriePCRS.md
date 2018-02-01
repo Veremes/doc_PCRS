@@ -28,7 +28,7 @@ Libellé de type texte positionnant de façon ponctuelle le numéro d'adresse.
 
 Contraintes de positionnement en dehors de l'espace public de la voirie, en particulier en zone dense ou très dense.
 
-**Attributs**
+**Géométrie**
 
 *idNumeroVoirie*
 

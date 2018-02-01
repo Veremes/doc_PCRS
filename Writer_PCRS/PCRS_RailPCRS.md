@@ -38,7 +38,7 @@ Classe essentielle du PCRS.
 
 Ne concerne que les voies situées sur le domaine public ou en assurant sa desserte.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

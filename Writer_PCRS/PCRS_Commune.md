@@ -22,7 +22,7 @@ Cette classe permet de référencer une commune présente dans un référentiel 
 
 Seuls sont considérés les objets « commune » d'un jeu de données de référence, défini par le gestionnaire du PCRS.
 
-*geometrie*
+ **Géométrie**
 
 - Définition : Géométrie de la commune
 

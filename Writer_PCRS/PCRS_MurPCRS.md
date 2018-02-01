@@ -48,7 +48,7 @@ Classe essentielle du PCRS.
 Les murs de pierre taillée ou non, ou constitués d'assemblages de bloc sont susceptibles de présenter des irrégularités incompatibles avec les exigences de précision du PCRS : ils ne constituent donc pas à proprement parler des murs du PCRS.
 Ils doivent toutefois être décrits en renseignant spécifiquement les précisions planimétriques et/ou altimétriques par des valeurs très supérieures à celles exigées pour le PCRS.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

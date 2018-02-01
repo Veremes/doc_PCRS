@@ -34,7 +34,7 @@ Concerne aussi bien les bâtiments durs que les bâtiments légers. Ne comprends
 Ne comprend donc pas le soubassement (partie inférieure, massive, d'une construction, qui surélève celle-ci au niveau du sol ©Larousse) décrit par l'objet "ProeminenceBatiPCRS".
 Ne tient pas compte des éventuels décrochements de seuil (seuils de maison, de cave ou de garage), décrits par ailleurs par l'objet SeuilPCRS.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

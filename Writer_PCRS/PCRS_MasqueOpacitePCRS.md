@@ -26,7 +26,7 @@ Surface
 
 Classe essentielle pour l’utilisation d’orthophotoplans.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

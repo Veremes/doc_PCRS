@@ -34,7 +34,7 @@ La modélisation conceptuelle des points de canevas est uniquement topographique
 
 Les points de canevas dont la précision ne serait pas au moins égale à celle attendue lors du levé topographique des objets du PCRS sont exclus de cette classe d'objets.
 
-**Attributs**
+**Géométrie**
 
 *canevas*
 

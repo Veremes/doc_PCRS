@@ -31,145 +31,32 @@ Bouches, avaloirs, regards, plaques, poteaux, coffrets...
 
 Classe essentielle du PCRS.
 
-**Attributs**
-
-*gestionnaire*
-
-- Définition : Nom court, sigle, acronyme de l'opérateur gestionnaire du réseau et fournisseur de la donnée
-
-- Type : CharacterString
-
-- Valeurs possibles : Exemple : ENEDIS, GRDF, Lyonnaise des Eaux, etc
-
-- Contraintes : 0..1
-
-*idSource*
-
-- Définition : Identifiant unique de l'affleurants
-
-- Type : CharacterString
-
-- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux.
-
-- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
-
-*nature*
-
-- Définition : Nature de l'affleurant
-
-- Type : NatureAffleurantPCRSType
-
-- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux
-
-  01 = avaloirs
-
-  02 = Boîte, Coffret, Armoire
-
-  03 = Tampon, plaque, chambre
-
-  04 = Branchement, vanne, bouche à clé
-
-  05 = Bouche incendie, Poteau incendie
-
-  06 = poteaux
-
-  07 = Poteau/borne d'éclairage
-
-- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
-
-*reseau*
-
-- Définition : Nature du réseau
-
-- Type : NatureReseauPCRSType
-
-- Valeurs possibles :
-
-  ASSAEU = Eaux usées
-
-  ASSARU = Réseau unitaire
-
-  00 = Non défini
-
-  ASSA = Assainissement ou pluvial
-
-  AEP = Eau potable
-
-  ELECECL = Electricité
-
-  GAZ = Gaz
-
-  MULT = Multi-réseaux
-
-  ELECSLT = Signalisation lumineuse tricolore
-
-  COM = Télécom
-
-  ASSAEP = Eaux pluviales
-
-  DECH = déchets
-
-  INCE = Incendie
-
-  CHIM = Produits chimiques
-
-  CHAU = Chauffage et climatisation
-
-- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
-
-
-*source*
-
-- Définition : Source de données d'affleurant dans le SI du gestionnaire de réseaux
-
-- Type : CharacterString
-
-- Valeurs possibles : Nom d'application ou de base de données dans le système d'information du gestionnaire de réseaux
-
-- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
-
-*symbolisation*
-
-- Définition : Lien vers une représentation symbolique
-
-- Type : Classe d'objets AffleurantSymbolePCRS
-
-- Contraintes 0..1
-
-*representations*
-
-- Définition : Liens vers une représentation de type géométrique
-
-- Type : Classe d'objets AffleurantGeometriquePCRS
-
-- Contraintes : 1 Il est nécessaire de fournir au moins un type de représentation géométrique
-
 **Paramètres**
 
-![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-![Identifiant Objet](Parametres.html#Identifiant Objet_PCRS.IDOBJET)
+[Identifiant Objet](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-objet)
 
-![Thématique](Parametres.html#Thématique_PCRS.THEMATIQUE)
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)
 
-![Qualité Catégorisation](Parametres.html#Qualité Catégorisation_PCRS.QUALITECATEGORISATION)
+[Qualité Catégorisation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#qualite-categorisation)
 
-![Précision Planimetrique](Parametres.html#Précision Planimetrique PRECISIONPLANIMETRIQUE)   
+[Précision Planimetrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-planimetrique)   
 
-![Précision Altimétrique](Parametres.html#Précision Altimétrique_PCRS.PRECISIONALTIMETRIQUE)
+[Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
 
-![Producteur](Parametres.html#Producteur_PCRS.PRODUCTEUR)
+[Producteur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#producteur)
 
-![Numero(s) des Point(s) Levé(s) (séparés par ",")](Parametres.html#Numero(s) des Point(s) Levé(s) (séparés par ",")_PCRS.NUMEROPOINT)
+[Numero(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
 
-![Gestionnaire](Parametres.html#Gestionnaire_PCRS.GESTIONNAIRE)
+[Gestionnaire](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#gestionnaire)
 
-![Identifiant Source](Parametres.html#Identifiant Source_PCRS.IDSOURCE)
+[Identifiant Source](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-source)
 
-![Nature](Parametres.html#Nature_PCRS.NATURE)
+[Nature](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#nature)
 
-![Reseau](Parametres.html#Reseau_PCRS.RESEAU)
+[Reseau](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reseau)
 
-![Source](Parametres.html#Source_PCRS.SOURCE)
+[Source](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#source)
 
-![Identifiant Affleurant Symbole](Parametres.html#Identifiant Affleurant Symbole_PCRS.IDAFFLEURANTSYMBOLE)
+[Identifiant Affleurant Symbole](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-affleurant-symbole)

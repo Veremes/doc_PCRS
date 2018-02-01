@@ -41,13 +41,28 @@ Adresse de type URL susceptible de fournir des informations supplémentaires, co
 
 1- Nom de la collectivité gestionnaire du PCRS.
 
-2- Nom court, sigle, acronyme de l'opérateur gestionnaire du réseau et fournisseur de la donnée.
+2-
+
+- Définition : Nom court, sigle, acronyme de l'opérateur gestionnaire du réseau et fournisseur de la donnée
+
+- Type : CharacterString
+
+- Valeurs possibles : Exemple : ENEDIS, GRDF, Lyonnaise des Eaux, etc
+
+- Contraintes : 0..1
 
 ### Horodatage ###
 
 Horodatage du point moment du levé topographique.
 
 ### Identifiant Affleurant Symbole ###
+
+- Définition : Lien vers une représentation symbolique
+
+- Type : Classe d'objets AffleurantSymbolePCRS
+
+- Contraintes 0..1
+
 ### Identifiant Emprise ###
 
 Identifiant de l’emprise.
@@ -65,7 +80,13 @@ Les identifiants sont obligatoirement renseignés. Ils sont calculés par défau
 
 ### Identifiant Source ###
 
-Identifiant unique de l'affleurant.
+- Définition : Identifiant unique de l'affleurants
+
+- Type : CharacterString
+
+- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux.
+
+- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
 
 ### Immatriculation ###
 
@@ -97,7 +118,27 @@ Texte du libellé à utiliser comme habillage du PCRS.
 
 ### Nature ###
 
-Nature de l'affleurant.
+- Définition : Nature de l'affleurant
+
+- Type : NatureAffleurantPCRSType
+
+- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux
+
+  01 = avaloirs
+
+  02 = Boîte, Coffret, Armoire
+
+  03 = Tampon, plaque, chambre
+
+  04 = Branchement, vanne, bouche à clé
+
+  05 = Bouche incendie, Poteau incendie
+
+  06 = poteaux
+
+  07 = Poteau/borne d'éclairage
+
+- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
 
 ### Nom ###
 
@@ -168,7 +209,44 @@ Indication du producteur quant à la qualité de la catégorisation. Permet des 
 
 ### Reseau ###
 
-Nature du réseau.
+- Définition : Nature du réseau
+
+- Type : NatureReseauPCRSType
+
+- Valeurs possibles :
+
+  ASSAEU = Eaux usées
+
+  ASSARU = Réseau unitaire
+
+  00 = Non défini
+
+  ASSA = Assainissement ou pluvial
+
+  AEP = Eau potable
+
+  ELECECL = Electricité
+
+  GAZ = Gaz
+
+  MULT = Multi-réseaux
+
+  ELECSLT = Signalisation lumineuse tricolore
+
+  COM = Télécom
+
+  ASSAEP = Eaux pluviales
+
+  DECH = déchets
+
+  INCE = Incendie
+
+  CHIM = Produits chimiques
+
+  CHAU = Chauffage et climatisation
+
+- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
+
 
 ### Section ###
 
@@ -178,7 +256,15 @@ Forme de la section à la base du pilier.
 
 1- Acronyme du référentiel utilisé.
 
-2- Source des données d'affleurant dans le SI du gestionnaire de réseaux.
+2-
+
+- Définition : Source de données d'affleurant dans le SI du gestionnaire de réseaux
+
+- Type : CharacterString
+
+- Valeurs possibles : Nom d'application ou de base de données dans le système d'information du gestionnaire de réseaux
+
+- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
 
 ### Taille ###
 

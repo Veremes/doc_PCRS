@@ -36,7 +36,7 @@ Il est décidé par convention que l’intérieur du pilier mur porteur de la ma
 
 Lorsque le pilier est attenant à un socle ou à un mur, ses dimensions au sol doivent le rendre différenciable (aux limites de précision planimétrique) du socle ou du mur attenant.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

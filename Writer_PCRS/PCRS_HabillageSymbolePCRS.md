@@ -26,7 +26,7 @@ Point (propriété de la classe généralisée HabillagePCRS) <br> Point de réf
 
 Contraintes de positionnement en dehors de la voirie, en particulier en zone dense ou très dense.
 
-**Attributs**
+**Géométrie**
 
 *angleRotation*
 

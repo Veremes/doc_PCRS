@@ -31,7 +31,7 @@ Multilignes
 - les limites de haies, d’espace vert, etc
 -  largeur des ouvertures ...
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

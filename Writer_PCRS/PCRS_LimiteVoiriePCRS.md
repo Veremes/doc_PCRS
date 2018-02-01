@@ -29,7 +29,7 @@ Les autres aspects de la modélisation géométrique sont propres à  ceux décr
 
 Limites de chaussée revêtue, marquant la limite de la voirie (exemple un bord goudronné).
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

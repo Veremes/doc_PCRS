@@ -30,7 +30,7 @@ Tout type de pilier de forme régulière à section circulaire, carrée ou recta
 
 Lorsque le pilier est associé à un socle ou à un mur, ses dimensions au sol doivent le rendre différenciable (aux limites de précision planimétrique) du socle ou du mur attenant.
 
-**Attributs**
+**Géométrie**
 
 *angleRotation*
 

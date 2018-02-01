@@ -38,7 +38,7 @@ Un point levé doit être topologiquement inclus dans l'emprise du levé topogra
 
 Tout point servant à qualifier un objet du PCRS en tant que support pour une cotation des réseaux en classe A (planimétrie et altimétrie) ou en classe AP (planimétrie seulement) au sens DT-DICT.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

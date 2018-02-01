@@ -32,7 +32,7 @@ Point (propriété de la classe généralisée HabillagePCRS) <br>Libellé de ty
 
 Contraintes de positionnement en dehors de la voirie, en particulier en zone dense ou très dense.
 
-**Attributs**
+**Géométrie**
 
 *angleRotation*
 

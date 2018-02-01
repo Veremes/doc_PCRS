@@ -35,7 +35,7 @@ La ligne est définie comme le segment reliant deux points levés (dans le même
 
 À l'exclusion de tout seuil de cave.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

@@ -26,7 +26,7 @@ Classe spécialisée de la classe abstraite <HabillagePCRS> permettant de décri
 
 Multipoints
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

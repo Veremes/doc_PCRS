@@ -36,7 +36,7 @@ Les autres aspects de la modélisation géométrique sont propres à  ceux décr
 
 Ne comprend pas les caves.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

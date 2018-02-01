@@ -29,7 +29,7 @@ Polyligne <br>Les quais sont levés au nez du quai.
 
 Classe essentielle du PCRS
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

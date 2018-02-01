@@ -23,7 +23,7 @@ Le tronçon de voirie s'appuie sur les tronçons du filaire des voies entretenu 
 
 Classe accompagnant les métadonnées de publication du PCRS.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 
@@ -43,7 +43,7 @@ Classe accompagnant les métadonnées de publication du PCRS.
 
   - 01 = Espace public
   - 02 = Espace privé
-  
+
 
 - Contraintes : 0..1 Optionnel à renseigner si possible, lorsqu'une superposition avec les données cadastrales n'est pas envisageable
 

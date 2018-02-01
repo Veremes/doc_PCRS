@@ -27,7 +27,7 @@ Point (propriété de la classe généralisée HabillageTextePCRS) <br>Libellé 
 Contraintes de positionnement en dehors de l'espace public de la voirie, en particulier en zone dense ou très dense, à préciser localement.
 
 
-**Attributs**
+**Géométrie**
 
 *idNomVoirie*
 

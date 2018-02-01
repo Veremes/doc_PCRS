@@ -31,7 +31,7 @@ Pile (appuis intermédiaires) ou culées (appuis d'extrémité).
 
 Appuis massifs et permanents supportant le tablier d'un pont.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

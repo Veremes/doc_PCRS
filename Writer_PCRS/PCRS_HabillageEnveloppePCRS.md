@@ -27,7 +27,7 @@ Surfacique
 - les mobiliers urbains
 - ...
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 

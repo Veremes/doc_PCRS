@@ -37,7 +37,7 @@ Une marche milieu (ou les deux marches milieu lorsque les marches sont en nombre
 
 L'escalier du PCRS doit obligatoirement être situé à l'extérieur, et proposer au moins une limite apparente avec le domaine public.
 
-**Attributs**
+**Géométrie**
 
 *geometrie*
 
