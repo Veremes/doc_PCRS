@@ -1,9 +1,5 @@
 # Paramètres publiés #
 
-### Identifiant PCRS ###
-
-Les identifiants sont obligatoirement renseignés. Ils sont calculés par défaut dans le projet FME.
-
 ### Angle de rotation ###
 
 1- Utilisé uniquement pour l'orientation de l'élément d'habillage.
@@ -58,7 +54,11 @@ Identifiant unique de l'habillage.
 
 ### Identifiant habillage symbole ###
 ### Identifiant Objet ###
+
 ### Identifiant PCRS ###
+
+Les identifiants sont obligatoirement renseignés. Ils sont calculés par défaut dans le projet FME.
+
 ### Identifiant Source ###
 
 Identifiant unique de l'affleurant.
