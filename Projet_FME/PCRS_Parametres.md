@@ -1,5 +1,5 @@
 # Paramètres publiés #
 
-### ch1 ###
+### Identifiant PCRS ###
 
 ## ch2 ##
