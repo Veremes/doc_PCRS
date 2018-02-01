@@ -22,16 +22,6 @@ Cette classe permet de référencer une commune présente dans un référentiel 
 
 Seuls sont considérés les objets « commune » d'un jeu de données de référence, défini par le gestionnaire du PCRS.
 
-**Attributs**
-
-*codeINSEE*
-
-- Définition : Code INSEE de la commune
-
-- Type : CharacterString
-
-- Contraintes : 1
-
 *geometrie*
 
 - Définition : Géométrie de la commune
@@ -39,14 +29,6 @@ Seuls sont considérés les objets « commune » d'un jeu de données de référ
 - Type : GM_MultiSurface
 
 - Contraintes : 1
-
-*nom*
-
-- Définition : Nom de la commune
-
-- Type : CharacterString
-
-- Contraintes : 0..1
 
 *reference*
 
