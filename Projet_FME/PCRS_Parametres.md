@@ -147,9 +147,22 @@ Indication du producteur quant à la qualité de la catégorisation. Permet des 
 
 3- Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole.
 
-4- Désignation du symbole à utiliser pour la représentation de l'arbre.
+4- Désignation du symbole à utiliser pour la représentation de l'affleurant.
 
-5- Désignation du symbole à utiliser pour la représentation de l'affleurant.
+5-
+- Définition : Désignation du symbole à utiliser pour la représentation de l'arbre.
+
+- Type : CharacterString
+
+- Valeurs possibles : Permet le cas échéant de faire référence à des essences ou espèces d'arbres différents
+
+- Contraintes : 1
+
+*geometrie*
+
+ - Type : GM_Point
+
+ - Contraintes : 1
 
 ### Reseau ###
 

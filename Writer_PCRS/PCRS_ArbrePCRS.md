@@ -27,24 +27,6 @@ Classe permettant de décrire les arbres régulièrement entretenus de la voirie
 
  Selon toutes essences et espèces d'arbres.
 
- **Attributs**
-
-*geometrie*
-
- - Type : GM_Point
-
- - Contraintes : 1
-
-*reference*
-
- - Définition : Désignation du symbole à utiliser pour la représentation de l'arbre
-
- - Type : CharacterString
-
- - Valeurs possibles : Permet le cas échéant de faire référence à des essences ou espèces d'arbres différents
-
- - Contraintes : 1
-
  **Paramètres**
 
 [Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
