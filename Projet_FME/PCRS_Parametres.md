@@ -22,7 +22,21 @@ Type de canevas auquel appartient le point considéré.
 
 ### Complement ###
 
-Information complémentaire liée au type d'emprise de publication du PCRS, gérée par le gestionnaire du PCRS et potentiellement utile à tout utilisateur du PCRS.
+- Définition : Information complémentaire liée au type d'emprise de publication du PCRS, gérée par le gestionnaire  du PCRS et potentiellement à tout utilisateur du PCRS
+
+- Type : CharacterString
+
+- Valeurs possibles : Selon le type d'emprise de publication, par exemple :
+   - un toponyme pour une emprise de type couloir
+
+   - le nom de l'opération pour une emprise de concernant une opération donnée
+
+   - la référence du carreau (si elle n'est pas redondante avec l'identifiant de l'emprise), ou le nom du carroyage pour une emprise de type régulière
+
+   - le nom ou le type de la limite administrative pur une emprise de type administrative ...
+
+- Contraintes : 0..1 Optionnel : information en complément de l'identifiant d'emprise, et liée au type de l'emprise de publication devant être renseignée si gérée par le gestionnaire du PCRS
+
 
 ### Date Creation (aaaa-mm-jj) ###
 
@@ -30,7 +44,11 @@ Date de création ou de mise à jour des données du point de canevas.
 
 ### Date de Publication ###
 
-Date de mise à disposition de l'emprise du PCRS.
+- Définition : Date de mise à disposition de l'emprise du PCRS
+
+- Type : Date
+
+- Contraintes : 1
 
 ### Fiche ###
 
@@ -39,7 +57,14 @@ Adresse de type URL susceptible de fournir des informations supplémentaires, co
 ### Fournisseur ###
 ### Gestionnaire ###
 
-1- Nom de la collectivité gestionnaire du PCRS.
+1-
+
+- Définition : Nom de la collectivité gestionnaire du PCRS
+
+- Type : CharacterString
+
+- Contraintes : 1
+
 
 2-
 
@@ -65,7 +90,11 @@ Horodatage du point moment du levé topographique.
 
 ### Identifiant Emprise ###
 
-Identifiant de l’emprise.
+- Définition : Identifiant de l'emprise
+
+- Type : CharacterString
+
+- Contraintes : 1
 
 ### Identifiant Habillage ###
 
@@ -190,7 +219,13 @@ Indication du producteur quant à la qualité de la catégorisation. Permet des 
 
 ### Reference ###
 
-1- Référence vers une base de données des communes.
+1-
+
+- Définition : Référence vers une base de données des communes
+
+- Type : CharacterString
+
+- Contraintes : 1
 
 2- Identifiant unique du tronçon dans le référentiel source utilisé.
 
@@ -279,7 +314,13 @@ Facteur de taille permettant le cas échéant aux utilisateurs de pondérer la t
 ### Transparence ###
 ### Type ###
 
-Type d'emprise du PCRS.
+- Définition : Type d'emprise du PCRS
+
+- Type : CharacterString
+
+- Valeurs possibles : Par exemple : Couloir, Opération, Carreau, LimiteAdministrative
+
+- Contraintes : 0..1
 
 ### Type Mur ###
 

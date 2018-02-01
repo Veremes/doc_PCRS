@@ -30,20 +30,12 @@ Seuls sont considérés les objets « commune » d'un jeu de données de référ
 
 - Contraintes : 1
 
-*reference*
-
-- Définition : Référence vers une base de données des communes
-
-- Type : CharacterString
-
-- Contraintes : 1
-
 **Paramètres**
 
-![Identifiant PCRS (calculé par défaut)](Parametres.html#Identifiant PCRS (calculé par défaut)_PCRS.ID)
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-![Code INSEE](Parametres.html#Code INSEE_PCRS.COMMUNE_CODEINSEE)
+[Code INSEE](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#code-insee)
 
-![Nom](Parametres.html#Nom_PCRS.COMMUNE_NOM)
+[Nom](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#nom)
 
-![Reference](Parametres.html#Reference|_PCRS.REFERENCE)
+[Reference](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reference)
