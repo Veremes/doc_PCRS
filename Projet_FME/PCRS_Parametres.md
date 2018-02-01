@@ -1,4 +1,4 @@
-# Paramètre #
+# Paramètres publiés #
 
 Angle Rotation
 Angle de rotation
