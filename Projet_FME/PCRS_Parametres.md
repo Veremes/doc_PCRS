@@ -14,7 +14,11 @@ Type de canevas auquel appartient le point considéré.
 
 ### Code INSEE ###
 
-Code INSEE de la commune.
+- Définition : Code INSEE de la commune
+
+- Type : CharacterString
+
+- Contraintes : 1
 
 ### Complement ###
 
@@ -97,7 +101,11 @@ Nature de l'affleurant.
 
 ### Nom ###
 
-Nom de la commune.
+- Définition : Nom de la commune
+
+- Type : CharacterString
+
+- Contraintes : 0..1
 
 ### Nom voirie ###
 ### Numero de voirie ###
@@ -157,12 +165,6 @@ Indication du producteur quant à la qualité de la catégorisation. Permet des 
 - Valeurs possibles : Permet le cas échéant de faire référence à des essences ou espèces d'arbres différents
 
 - Contraintes : 1
-
-*geometrie*
-
- - Type : GM_Point
-
- - Contraintes : 1
 
 ### Reseau ###
 

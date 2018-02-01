@@ -27,6 +27,14 @@ Classe permettant de décrire les arbres régulièrement entretenus de la voirie
 
  Selon toutes essences et espèces d'arbres.
 
+ **Géométrie**
+
+- Définition : Géométrie de type multi-point
+
+- Type : GM_Point
+
+- Contraintes : 1
+
  **Paramètres**
 
 [Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
