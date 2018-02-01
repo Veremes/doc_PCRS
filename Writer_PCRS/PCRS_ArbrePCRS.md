@@ -49,10 +49,7 @@ Classe permettant de décrire les arbres régulièrement entretenus de la voirie
 
 [Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-
-[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#Identifiant PCRS)
-
-![Identifiant Objet](Parametres.html#Identifiant Objet_PCRS.IDOBJET)
+[Identifiant Objet](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#Identifiant Objet_PCRS.IDOBJET)
 
 ![Thématique](Parametres.html#Thématique_PCRS.THEMATIQUE)
 
