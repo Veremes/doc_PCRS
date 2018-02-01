@@ -107,22 +107,6 @@ Nom de la commune.
 
 2- Lien vers les points levés correspondant à l‘objet.
 
-### Propriete ###
-
-Distinction d'appartenance d'un tronçon de voirie à l'espace public ou à l'espace privé.
-
-### Reference ###
-
-1- Référence vers une base de données des communes.
-
-2- Identifiant unique du tronçon dans le référentiel source utilisé.
-
-3- Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole.
-
-4- Désignation du symbole à utiliser pour la représentation de l'arbre.
-
-5- Désignation du symbole à utiliser pour la représentation de l'affleurant.
-
 ### Positionnement ###
 
 Indication quant au positionnement de l'élément d'habillage par rapport à la voirie.
@@ -147,9 +131,25 @@ Précision altimétrique exprimée en cm.
 
 Producteur de la donnée.
 
+### Propriete ###
+
+Distinction d'appartenance d'un tronçon de voirie à l'espace public ou à l'espace privé.
+
 ### Qualité Catégorisation ###
 
 Indication du producteur quant à la qualité de la catégorisation. Permet des représentations plus riches pour les migrations / reprises de données.
+
+### Reference ###
+
+1- Référence vers une base de données des communes.
+
+2- Identifiant unique du tronçon dans le référentiel source utilisé.
+
+3- Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole.
+
+4- Désignation du symbole à utiliser pour la représentation de l'arbre.
+
+5- Désignation du symbole à utiliser pour la représentation de l'affleurant.
 
 ### Reseau ###
 
