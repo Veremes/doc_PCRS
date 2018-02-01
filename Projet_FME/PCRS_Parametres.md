@@ -1,8 +1,8 @@
 # Paramètres publiés #
 
 
-[AffleurantPCRS](#test)
-##test <a id="test"></a>
+[# AffleurantPCRS #](#test)
+##titre <a id="test"></a>
 Angle Rotation
 Angle de rotation
 Canevas
