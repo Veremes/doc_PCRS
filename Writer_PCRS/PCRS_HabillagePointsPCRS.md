@@ -28,8 +28,6 @@ Multipoints
 
 **Géométrie**
 
-*geometrie*
-
 - Définition : géométrie de type multi-points
 
 - Type : GM_MultiPoint
@@ -38,9 +36,8 @@ Multipoints
 
 **Paramètres**
 
+[Identifiant Habillage](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-habillage)
 
-![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-![Identifiant Habillage](Parametres.html#Identifiant Habillage_PCRS.IDHABILLAGE)
-
-![Thematique](Parametres.html#Thematique_PCRS.THEMATIQUE)
+[Thematique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)

@@ -32,9 +32,9 @@ Seuls sont considérés les objets « commune » d'un jeu de données de référ
 
 **Paramètres**
 
-[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
-
 [Code INSEE](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#code-insee)
+
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
 [Nom](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#nom)
 

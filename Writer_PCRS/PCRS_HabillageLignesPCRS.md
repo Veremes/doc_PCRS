@@ -33,8 +33,6 @@ Multilignes
 
 **Géométrie**
 
-*geometrie*
-
 - Définition : géométrie de type multi-courbe
 
 - Type : GM_MultiCurve
@@ -43,8 +41,8 @@ Multilignes
 
 **Paramètres**
 
-![Identifiant PCRS_PCRS.ID](Parametres.html#Identifiant PCRS_PCRS.ID)
+[Identifiant Habillage](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-habillage)
 
-![Identifiant Habillage](Parametres.html#Identifiant Habillage_PCRS.IDHABILLAGE)
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-![Thematique](Parametres.html#Thematique_PCRS.THEMATIQUE)
+[Thematique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)
