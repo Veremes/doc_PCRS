@@ -34,62 +34,24 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 
 **Géométrie**
 
-*angleRotation*
-
-- Définition : Utilisé uniquement pour l'orientation de l'élément d'habillage
-
-- Type : Décimal
-
-- Valeurs possibles : Valeur angulaire en degrés décimaux
-
-- Contraintes : 1
-
-*geometrie*
-
 - Définition : Géométrie de type point
 
 - Type : GM_Point
 
 - Contraintes : 1
 
-*justification*
-
-- Définition : Utilisé pour la justification de texte
-
-- Type : TexteJustificationPCRSType
-
-- Valeurs possibles :
-  - G = Gauche
-  - C = Centré
-  - D = Droite
-
-
-- Contraintes : 1
-
-*libelle*
-
-- Définition : Texte du libellé à utiliser comme habillage du PCRS
-
-- Type : CharacterString
-
-- Valeurs possibles : Valeur textuelle. Exemple : 123 m
-
-- Contraintes : 1
-
-*Taille*
-
-- Définition : Facteur de taille permettant le cas échéant aux utilisateurs de pondérer la taille du Texte
-
-- Type : Décimal
-
-- Contraintes : 1
-
 **Pramètres**
 
-![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
+[Angle de rotation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#angle-de-rotation)
 
-![Identifiant Habillage](Parametres.html#Identifiant Habillage_PCRS.IDHABILLAGE)
+[Identifiant Habillage](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-habillage)
 
-![_PCRS.IDHABILLAGE](Parametres.html#_PCRS.IDHABILLAGE_PCRS.THEMATIQUE)
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-![Libelle](Parametres.html#Libelle_PCRS.LIBELLE)
+[Justification](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#justification)
+
+[Libellé](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#libelle)
+
+[Taille](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#taille)
+
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)

@@ -28,58 +28,26 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 
 **Géométrie**
 
-*angleRotation*
-
-- Définition : Utilisé uniquement pour l'orientation de l'élément d'habillage
-
-- Type : Décimal
-
-- Valeurs possibles : Valeur angulaire en degrés décimaux
-
-- Contraintes : 1 valeur non vide
-
-*geometrie*
-
 - Définition : Géométrie de type ponctuel
 
 - Type : GM_Point
 
 - Contraintes : 1
 
-*largeur_mm*
-
-- Définition : Utilisé uniquement pour la mise à l'échelle Y du symbole Habillage
-
-- Type : Décimal
-
-- Contraintes : 1 Valeur non vide
-
-*longueur_mm*
-
-- Définition : Utilisé uniquement pour la mise à l'échelle X du symbole habillage
-
-- Type : Décimal
-
-- Contraintes : 1 Valeur non vide
-
-*reference*
-
-- Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole
-
-- Type : CharacterString
-
-- Contraintes : 1 Valeur non vide
-
 **Paramètres**
 
-![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
+[Angle de rotation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#angle-de-rotation)
 
-![Identifiant Habillage](Parametres.html#Identifiant Habillage_PCRS.IDHABILLAGE)
+[Identifiant Habillage](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-habillage)
 
-![Thematique](Parametres.html#Thematique_PCRS.THEMATIQUE)
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-![Reference](Parametres.html#Reference_PCRS_REFERENCE)
+[Reference](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reference)
 
-![Angle de rotation](Parametres.html#Angle de rotation_PCRS_ANGLEROTATION)
+[Thematique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)
 
-![Longueur en mm](Parametres.html#Longueur en mm_PCRS_LONGUEUR_MM)
+
+
+
+
+[Longueur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#longueur)

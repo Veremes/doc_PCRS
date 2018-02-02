@@ -2,12 +2,28 @@
 
 ### Angle de rotation ###
 
-1- Utilisé uniquement pour l'orientation de l'élément d'habillage.
+1-
+- Définition : Utilisé uniquement pour l'orientation de l'élément d'habillage
+
+- Type : Décimal
+
+- Valeurs possibles : Valeur angulaire en degrés décimaux
+
+- Contraintes : 1 valeur non vide
 
 2- Utilisé uniquement pour l'orientation du symbole de poteau. Peut être étendu pour un poteau ovale pour orienter le symbole.
 
 3- Angle utilisé uniquement pour l'orientation du symbole d'affleurant, dans le sens horaire par rapport au nord.
 
+
+4-
+- Définition : Utilisé uniquement pour l'orientation de l'élément d'habillage
+
+- Type : Décimal
+
+- Valeurs possibles : Valeur angulaire en degrés décimaux
+
+- Contraintes : 1
 ### Canevas ###
 
 Type de canevas auquel appartient le point considéré.
@@ -123,23 +139,48 @@ Référence externe selon la convention d'immatriculation du canevas considéré
 
 ### Justification ###
 
-Utilisé pour la justification du texte.
+- Définition : Utilisé pour la justification de texte
+
+- Type : TexteJustificationPCRSType
+
+- Valeurs possibles :
+  - G = Gauche
+  - C = Centré
+  - D = Droite
+
+- Contraintes : 1
 
 ### Largeur ###
 
-1- Utilisé uniquement pour la mise à l'échelle Y du symbole en habillage.
+1-
+- Définition : Utilisé uniquement pour la mise à l'échelle Y du symbole Habillage
+
+- Type : Décimal
+
+- Contraintes : 1 Valeur non vide
 
 2- Utilisé uniquement pour la mise à l'échelle Y du symbole de poteau après rotation.
 
 3- Utilisé uniquement pour la mise à l'échelle Y du symbole de l'affleurant.
 
-### Libelle ###
+### Libellé ###
 
-Texte du libellé à utiliser comme habillage du PCRS.
+- Définition : Texte du libellé à utiliser comme habillage du PCRS
+
+- Type : CharacterString
+
+- Valeurs possibles : Valeur textuelle. Exemple : 123 m
+
+- Contraintes : 1
 
 ### Longueur ###
 
-1- Utilisé uniquement pour la mise à l'échelle X du symbole en habillage.
+1-
+- Définition : Utilisé uniquement pour la mise à l'échelle X du symbole habillage
+
+- Type : Décimal
+
+- Contraintes : 1 Valeur non vide
 
 2- Utilisé uniquement pour la mise à l'échelle X du symbole de poteau après rotation.
 
@@ -229,7 +270,12 @@ Indication du producteur quant à la qualité de la catégorisation. Permet des 
 
 2- Identifiant unique du tronçon dans le référentiel source utilisé.
 
-3- Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole.
+3-
+- Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole
+
+- Type : CharacterString
+
+- Contraintes : 1 Valeur non vide
 
 4- Désignation du symbole à utiliser pour la représentation de l'affleurant.
 
@@ -303,7 +349,11 @@ Forme de la section à la base du pilier.
 
 ### Taille ###
 
-Facteur de taille permettant le cas échéant aux utilisateurs de pondérer la taille du texte.
+- Définition : Facteur de taille permettant le cas échéant aux utilisateurs de pondérer la taille du Texte
+
+- Type : Décimal
+
+- Contraintes : 1
 
 ### Thématique ###
 
