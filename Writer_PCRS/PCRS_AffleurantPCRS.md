@@ -45,7 +45,7 @@ Classe essentielle du PCRS.
 
 [Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
 
-[Précision Planimetrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-planimetrique)
+[Précision Planimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-planimetrique)
 
 [Producteur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#producteur)
 
@@ -55,7 +55,7 @@ Classe essentielle du PCRS.
 
 [Nature](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#nature)
 
-[Reseau](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reseau)
+[Réseau](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reseau)
 
 [Source](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#source)
 

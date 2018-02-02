@@ -38,4 +38,4 @@ Seuls sont considérés les objets « commune » d'un jeu de données de référ
 
 [Nom](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#nom)
 
-[Reference](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reference)
+[Référence](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reference)
