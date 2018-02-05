@@ -2,11 +2,11 @@
 
 ### Angle de rotation ###
 
-- Définition : Utilisé pour l'orientation de l'élément d'habillage, du symbole de poteau (pouvant être étendu pour un poteau ovale pour orienter le symbole) et du symbole d'affleurant, dans le sens horaire par rapport au nord.<br>
+- Définition : Utilisé pour l'orientation de l'élément d'habillage, du symbole de poteau (pouvant être étendu pour un poteau ovale pour orienter le symbole) et du symbole d'affleurant, dans le sens horaire par rapport au nord.<br><br>
 
-- Type : Décimal.<br>
+- Type : Décimal.<br><br>
 
-- Valeurs possibles : Valeur angulaire en degrés décimaux.<br>
+- Valeurs possibles : Valeur angulaire en degrés décimaux.<br><br>
 
 - Contraintes : 1 valeur non vide.
 
