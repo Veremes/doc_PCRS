@@ -2,66 +2,66 @@
 
 ### Angle de rotation ###
 
-- Définition : Utilisé pour l'orientation de l'élément d'habillage, du symbole de poteau (pouvant être étendu pour un poteau ovale pour orienter le symbole) et du symbole d'affleurant, dans le sens horaire par rapport au nord.
+- Définition : Utilisé pour l'orientation de l'élément d'habillage, du symbole de poteau (pouvant être étendu pour un poteau ovale pour orienter le symbole) et du symbole d'affleurant, dans le sens horaire par rapport au nord.<br>
 
-- Type : Décimal.
+- Type : Décimal.<br>
 
-- Valeurs possibles : Valeur angulaire en degrés décimaux.
+- Valeurs possibles : Valeur angulaire en degrés décimaux.<br>
 
 - Contraintes : 1 valeur non vide.
 
 ### Canevas ###
 
-- Définition : Type de canevas auquel appartient le point considéré.
+- Définition : Type de canevas auquel appartient le point considéré.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
 - Contraintes : 0..1  Optionnel  : lorsque le point appartient à un canevas donné, il est recommandé de le renseigner.
 
 ### Code INSEE ###
 
-- Définition : Code INSEE de la commune.
+- Définition : Code INSEE de la commune.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
 - Contraintes : 1.
 
 ### Complément ###
 
-- Définition : Information complémentaire liée au type d'emprise de publication du PCRS, gérée par le gestionnaire  du PCRS et potentiellement à tout utilisateur du PCRS.
+- Définition : Information complémentaire liée au type d'emprise de publication du PCRS, gérée par le gestionnaire  du PCRS et potentiellement à tout utilisateur du PCRS.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Selon le type d'emprise de publication, par exemple :
+- Valeurs possibles : Selon le type d'emprise de publication, par exemple :<br>
 
    - un toponyme pour une emprise de type couloir.
    - le nom de l'opération pour une emprise de concernant une opération donnée,
    - la référence du carreau (si elle n'est pas redondante avec l'identifiant de l'emprise), ou le nom du carroyage pour une emprise de type régulière,
-   - le nom ou le type de la limite administrative pur une emprise de type administrative ...
+   - le nom ou le type de la limite administrative pur une emprise de type administrative ...<br>
 
 - Contraintes : 0..1 Optionnel : information en complément de l'identifiant d'emprise, et liée au type de l'emprise de publication devant être renseignée si gérée par le gestionnaire du PCRS.
 
 ### Date Création ###
 
-- Définition : Date de création ou de mise à jour des données du point de canevas.
+- Définition : Date de création ou de mise à jour des données du point de canevas.<br>
 
-- Type : Date au format (aaaa-mm-jj).
+- Type : Date au format (aaaa-mm-jj).<br>
 
 - Contraintes : 0..1  Optionnel  : lorsque la date de création ou de mise à jour des données du point de canevas est connue, il est obligatoire de la renseigner.
 
 ### Date de Publication ###
 
-- Définition : Date de mise à disposition de l'emprise du PCRS.
+- Définition : Date de mise à disposition de l'emprise du PCRS.<br>
 
-- Type : Date au format (aaaa-mm-jj).
+- Type : Date au format (aaaa-mm-jj).<br>
 
 - Contraintes : 1.
 
 ### Fiche ###
 
-- Définition : Adresse de type URL susceptible de fournir des informations supplémentaires, comme des photographies de repérage,  sur le point de canevas.
+- Définition : Adresse de type URL susceptible de fournir des informations supplémentaires, comme des photographies de repérage,  sur le point de canevas.<br>
 
-- Type : URL.
+- Type : URL.<br>
 
 - Contraintes : 0..1.
 
@@ -69,56 +69,56 @@
 
 ### Gestionnaire ###
 
-1) Emprise d'échange du PCRS
+1) Emprise d'échange du PCRS<br>
 
-- Définition : Nom de la collectivité gestionnaire du PCRS.
+- Définition : Nom de la collectivité gestionnaire du PCRS.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
 - Contraintes : 1.
 
 
 2) Affleurant du PCRS
 
-- Définition : Nom court, sigle, acronyme de l'opérateur gestionnaire du réseau et fournisseur de la donnée.
+- Définition : Nom court, sigle, acronyme de l'opérateur gestionnaire du réseau et fournisseur de la donnée.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Exemple : ENEDIS, GRDF, Lyonnaise des Eaux, ...
+- Valeurs possibles : Exemple : ENEDIS, GRDF, Lyonnaise des Eaux, ...<br>
 
 - Contraintes : 0..1.
 
 ### Horodatage ###
 
-- Définition : Horodatage du point au moment du levé topographique.
+- Définition : Horodatage du point au moment du levé topographique.<br>
 
-- Type : Date.
+- Type : Date.<br>
 
 - Contraintes : 0..1 Optionnel : pour la reprise de données existantes, lorsque l'horodatage du point levé est connu, il est obligatoire de le renseigner.
 
 ### Identifiant Affleurant Symbole ###
 
-- Définition : Lien vers une représentation symbolique.
+- Définition : Lien vers une représentation symbolique.<br>
 
-- Type : Classe d'objets AffleurantSymbolePCRS.
+- Type : Classe d'objets AffleurantSymbolePCRS.<br>
 
 - Contraintes 0..1.
 
 ### Identifiant Emprise ###
 
-- Définition : Identifiant de l'emprise.
+- Définition : Identifiant de l'emprise.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
 - Contraintes : 1.
 
 ### Identifiant Habillage ###
 
-- Définition : Identifiant unique de l'habillage.
+- Définition : Identifiant unique de l'habillage.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Selon la collectivité gestionnaire du PCRS, et le cas échéant lié à celui du référentiel dont peut-être issue la donnée.
+- Valeurs possibles : Selon la collectivité gestionnaire du PCRS, et le cas échéant lié à celui du référentiel dont peut-être issue la donnée.<br>
 
 - Contraintes : 1 Valeur non vide et unique pour un même jeu de données.
 
@@ -128,11 +128,11 @@ Identifiant unique de l'habillage symbole.
 
 ### Identifiant Objet ###
 
-- Définition : Identifiant unique dans le jeu de données des objets du PCRS.
+- Définition : Identifiant unique dans le jeu de données des objets du PCRS.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Selon la collectivité gestionnaire du PCRS.
+- Valeurs possibles : Selon la collectivité gestionnaire du PCRS.<br>
 
 - Contraintes : 1 Valeur unique.
 
@@ -142,68 +142,68 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 ### Identifiant Source ###
 
-- Définition : Identifiant unique de l'affleurants.
+- Définition : Identifiant unique de l'affleurants.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux.
+- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux.<br>
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée.
 
 ### Immatriculation ###
 
-- Définition : Référence externe selon la convention d'immatriculation du canevas considéré.
+- Définition : Référence externe selon la convention d'immatriculation du canevas considéré.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
 - Contraintes : 0..1  Optionnel  : lorsque le matricule du point est connu, il est obligatoire de le renseigner.
 
 ### Justification ###
 
-- Définition : Utilisé pour la justification de texte.
+- Définition : Utilisé pour la justification de texte.<br>
 
-- Type : TexteJustificationPCRSType.
+- Type : TexteJustificationPCRSType.<br>
 
-- Valeurs possibles :
+- Valeurs possibles :<br>
   - G = Gauche,
   - C = Centré,
-  - D = Droite.
+  - D = Droite.<br>
 
 - Contraintes : 1.
 
 ### Largeur ###
 
-- Définition : Utilisé pour la mise à l'échelle Y du symbole habillage, du symbole de l'affleurant et du symbole de poteau après rotation.
+- Définition : Utilisé pour la mise à l'échelle Y du symbole habillage, du symbole de l'affleurant et du symbole de poteau après rotation.<br>
 
-- Type : Décimal.
+- Type : Décimal.<br>
 
 - Contraintes : 1 Valeur non vide.
 
 ### Libellé ###
 
-- Définition : Texte du libellé à utiliser comme habillage du PCRS.
+- Définition : Texte du libellé à utiliser comme habillage du PCRS.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Valeur textuelle. Exemple : 123 m.
+- Valeurs possibles : Valeur textuelle. Exemple : 123 m.<br>
 
 - Contraintes : 1.
 
 ### Longueur ###
 
-- Définition : Utilisé pour la mise à l'échelle X du symbole habillage, du symbole de l'affleurant et du symbole de poteau après rotation.
+- Définition : Utilisé pour la mise à l'échelle X du symbole habillage, du symbole de l'affleurant et du symbole de poteau après rotation.<br>
 
-- Type : Décimal.
+- Type : Décimal.<br>
 
 - Contraintes : 1 Valeur non vide.
 
 ### Nature ###
 
-- Définition : Nature de l'affleurant.
+- Définition : Nature de l'affleurant.<br>
 
-- Type : NatureAffleurantPCRSType.
+- Type : NatureAffleurantPCRSType.<br>
 
-- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux
+- Valeurs possibles : Selon le système d'information du gestionnaire de réseaux<br>
 
   - 01 = avaloirs,
   - 02 = Boîte, Coffret, Armoire,
@@ -211,202 +211,202 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
   - 04 = Branchement, vanne, bouche à clé,
   - 05 = Bouche incendie, Poteau incendie,
   - 06 = poteaux,
-  - 07 = Poteau/borne d'éclairage.
+  - 07 = Poteau/borne d'éclairage.<br>
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée.
 
 ### Nom ###
 
-- Définition : Nom de la commune.
+- Définition : Nom de la commune.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
 - Contraintes : 0..1.
 
 ### Nom voirie ###
 
-- Définition : Identifiant unique dans le jeu de données des noms voirie.
+- Définition : Identifiant unique dans le jeu de données des noms voirie.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Selon La collectivité gestionnaire du PCRS, et si possible identique à celui du référentiel dont est issu la donnée.
+- Valeurs possibles : Selon La collectivité gestionnaire du PCRS, et si possible identique à celui du référentiel dont est issu la donnée.<br>
 
 - Contraintes : 1 Valeur unique.
 
 ### Numéro de voirie ###
 
-- Définition : Identifiant unique dans le jeu de données des numéros de voirie.
+- Définition : Identifiant unique dans le jeu de données des numéros de voirie.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Selon la collectivité gestionnaire du PCRS, et si possible identique à celui du référentiel dont est issu la donnée.
+- Valeurs possibles : Selon la collectivité gestionnaire du PCRS, et si possible identique à celui du référentiel dont est issu la donnée.<br>
 
 - Contraintes : 1 Valeur unique.
 
 ### Numéro Point Levé ###
 
-- Définition : Numéro(s) attribué(s) au point(s) levé(s) lors du levé topographique ou de l'intégration au référentiel (séparés par ",").
+- Définition : Numéro(s) attribué(s) au point(s) levé(s) lors du levé topographique ou de l'intégration au référentiel (séparés par ",").<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Un ou plusieurs caractères alpha non accentués préfixant un nombre à valeurs dans une série numérique croissante avec possibilité de saut / valeurs manquantes dans la suite.
+- Valeurs possibles : Un ou plusieurs caractères alpha non accentués préfixant un nombre à valeurs dans une série numérique croissante avec possibilité de saut / valeurs manquantes dans la suite.<br>
 
 - Contraintes : 1 Valeur non vide.
 
 ### Positionnement ###
 
-- Définition : Indication quant au positionnement de l'élément d'habillage par rapport à la voirie.
+- Définition : Indication quant au positionnement de l'élément d'habillage par rapport à la voirie.<br>
 
-- Type : CategoriePlacementPCRSType.
+- Type : CategoriePlacementPCRSType.<br>
 
-- Valeurs possibles :
+- Valeurs possibles :<br>
 
   - 01 = sans repositionnement,
   - 02 = AxeVoirie,
   - 03 = LimiteVoirie,
   - 04 = HorsVoirie,
-  - 05 = parcelles.
+  - 05 = parcelles.<br>
 
 - Contraintes : 0..1.
 
 ### Précision Altimétrique ###
 
-- Définition : Intervalle de précision dans lequel s'exprime en cm la précision altimétrique associée au levé topographique de l'objet.
+- Définition : Intervalle de précision dans lequel s'exprime en cm la précision altimétrique associée au levé topographique de l'objet.<br>
 
-- Type : Domaine de valeurs.
+- Type : Domaine de valeurs.<br>
 
-- Valeurs possibles :
+- Valeurs possibles :<br>
 
   - 002 = moins de 2 cm,
   - 005 = de 2 à 5 cm,
   - 010 = de 5 à 10 cm,
   - 040 = de 10 à 40 cm,
   - 150 = de 40 à 150 cm,
-  - 999 = au delà de 150 cm.
+  - 999 = au delà de 150 cm.<br>
 
 - Contraintes : 0..1.
 
 ### Précision Planimétrique ###
 
-- Définition : Intervalle de précision dans lequel s'exprime en cm la précision planimétrique associée au levé topographique de l'objet.
+- Définition : Intervalle de précision dans lequel s'exprime en cm la précision planimétrique associée au levé topographique de l'objet.<br>
 
-- Type : Domaine de valeurs.
+- Type : Domaine de valeurs.<br>
 
-- Valeurs possibles :
+- Valeurs possibles :<br>
 
   - 002 = moins de 2 cm,
   - 005 = de 2 à 5 cm,
   - 010 = de 5 à 10 cm,
   - 040 = de 10 à 40 cm,
   - 150 = de 40 à 150 cm,
-  - 999 = au delà de 150 cm.
+  - 999 = au delà de 150 cm.<br>
 
 - Contraintes : 1.
 
 ### Précision XY ###
 
-- Définition : Précision planimétrique exprimée en cm.
+- Définition : Précision planimétrique exprimée en cm.<br>
 
-- Type : Integer.
+- Type : Integer.<br>
 
 - Contraintes : 0..1  Optionnel, à renseigner si disponible.
 
 ### Précision Z ###
 
-- Définition : Précision altimétrique exprimée en cm.
+- Définition : Précision altimétrique exprimée en cm.<br>
 
-- Type : Integer.
+- Type : Integer.<br>
 
 - Contraintes : 0..1  Optionnel, à renseigner si disponible (ou pour les saisies nouvelles).
 
 ### Producteur ###
 
-- Définition : Producteur de la donnée.
+- Définition : Producteur de la donnée.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : La valeur sera saisie et déterminée par le producteur de façon stable. Cet attribut permettra de filtrer l'ensemble des objets d'un producteur donné.
+- Valeurs possibles : La valeur sera saisie et déterminée par le producteur de façon stable. Cet attribut permettra de filtrer l'ensemble des objets d'un producteur donné.<br>
 
 - Contraintes : 1.
 
 ### Propriété ###
 
-- Définition : Distinction d'appartenance  d'un tronçon de voirie à l'espace public ou à l'espace privé.
+- Définition : Distinction d'appartenance  d'un tronçon de voirie à l'espace public ou à l'espace privé.<br>
 
-- Type : ProprieteEspaceType.
+- Type : ProprieteEspaceType.<br>
 
-- Valeurs possibles :
+- Valeurs possibles :<br>
 
   - 01 = Espace public,
-  - 02 = Espace privé.
+  - 02 = Espace privé.<br>
 
-- Contraintes : 0..1 Optionnel à renseigner si possible, lorsqu'une superposition avec les données cadastrales n'est pas envisageable.
+- Contraintes : 0..1 Optionnel à renseigner si possible, lorsqu'une superposition avec les données cadastrales n'est pas envisageable.<br>
 
 ### Qualité Catégorisation ###
 
-- Définition : Indication du producteur quant à la qualité de la catégorisation. Permet des représentations plus riches pour les migrations / reprises de données.
+- Définition : Indication du producteur quant à la qualité de la catégorisation. Permet des représentations plus riches pour les migrations / reprises de données.<br>
 
-- Type : Domaine de valeurs.
+- Type : Domaine de valeurs.<br>
 
-- Valeurs possibles :
+- Valeurs possibles :<br>
 
   - 01 = Très fiable / Conforme PCRS,
   - 02 = Moyennement fiable,
-  - 03 = Peu fiable.
+  - 03 = Peu fiable.<br>
 
 - Contraintes : 1.
 
 ### Référence ###
 
-1) Lien vers un objet « commune »
+1) Lien vers un objet « commune »<br>
 
-- Définition : Référence vers une base de données des communes.
+- Définition : Référence vers une base de données des communes.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Contraintes : 1.
+- Contraintes : 1.<br>
 
 2) Tronçon de Voie
 
-- Définition : Identifiant unique du tronçon dans le référentiel source utilisé.
+- Définition : Identifiant unique du tronçon dans le référentiel source utilisé.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
 - Valeurs possibles : Selon le fournisseur du référentiel donné.
 
 3) Symbole d'habillage du PCRS
 
-- Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole.
+- Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
 - Contraintes : 1 Valeur non vide.
 
 4) Affleurant du PCRS représenté par un symbole
 
-- Définition : Désignation du symbole à utiliser pour la représentation de l'affleurant.
+- Définition : Désignation du symbole à utiliser pour la représentation de l'affleurant.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
 - Contraintes : 1 Valeur non vide.
 
 5) Arbre
 
-- Définition : Désignation du symbole à utiliser pour la représentation de l'arbre.
+- Définition : Désignation du symbole à utiliser pour la représentation de l'arbre.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Permet le cas échéant de faire référence à des essences ou espèces d'arbres différents.
+- Valeurs possibles : Permet le cas échéant de faire référence à des essences ou espèces d'arbres différents.<br>
 
 - Contraintes : 1.
 
 ### Réseau ###
 
-- Définition : Nature du réseau.
+- Définition : Nature du réseau.<br>
 
-- Type : NatureReseauPCRSType.
+- Type : NatureReseauPCRSType.<br>
 
-- Valeurs possibles :
+- Valeurs possibles :<br>
 
   - ASSAEU = Eaux usées,
   - ASSARU = Réseau unitaire,
@@ -422,62 +422,62 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
   - DECH = déchets,
   - INCE = Incendie,
   - CHIM = Produits chimiques,
-  - CHAU = Chauffage et climatisation.
+  - CHAU = Chauffage et climatisation.<br>
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée.
 
 ### Section ###
 
-- Définition : Forme de la section à la base du pilier.
+- Définition : Forme de la section à la base du pilier.<br>
 
-- Type : SectionPilierPCRSType.
+- Type : SectionPilierPCRSType.<br>
 
-- Valeurs possibles :
+- Valeurs possibles :<br>
 
   - 01 = Pilier carré,
   - 02 = Pilier circulaire,
   - 03 = Pilier rectangulaire,
-  - 00 = Pilier à autre forme de section.
+  - 00 = Pilier à autre forme de section.<br>
 
-- Contraintes : 1 Valeur non vide : l'attribut est utilisé pour différencier les piliers selon leur nature.
+- Contraintes : 1 Valeur non vide : l'attribut est utilisé pour différencier les piliers selon leur nature.<br>
 
 ### Source ###
 
 1) Tronçon de Voie
 
-- Définition : Acronyme du référentiel utilisé.
+- Définition : Acronyme du référentiel utilisé.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Selon le fournisseur du référentiel.
+- Valeurs possibles : Selon le fournisseur du référentiel.<br>
 
 - Contraintes : 1.
 
 2) Affleurant du PCRS
 
-- Définition : Source de données d'affleurant dans le SI du gestionnaire de réseaux.
+- Définition : Source de données d'affleurant dans le SI du gestionnaire de réseaux.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Nom d'application ou de base de données dans le système d'information du gestionnaire de réseaux.
+- Valeurs possibles : Nom d'application ou de base de données dans le système d'information du gestionnaire de réseaux.<br>
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée.
 
 ### Taille ###
 
-- Définition : Facteur de taille permettant le cas échéant aux utilisateurs de pondérer la taille du Texte.
+- Définition : Facteur de taille permettant le cas échéant aux utilisateurs de pondérer la taille du Texte.<br>
 
-- Type : Décimal.
+- Type : Décimal.<br>
 
 - Contraintes : 1.
 
 ### Thématique ###
 
-- Définition : La thématique à laquelle est associé chaque objet du PCRS.
+- Définition : La thématique à laquelle est associé chaque objet du PCRS.<br>
 
-- Type : Domaine de valeurs.
+- Type : Domaine de valeurs.<br>
 
-- Valeurs possibles :
+- Valeurs possibles :<br>
 
   - 10 = Affleurant,
   - 00 = A déterminer,
@@ -490,34 +490,34 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
   - 07 = Ouvrage d'art,
   - 08 = Hydrographie,
   - 09 = Orographie,
-  - 99 = Non définie.
+  - 99 = Non définie.<br>
 
 - Contraintes : 1 en général à valeur unique par classe d'objet dérivé.
 
 ### Transparence ###
 
-- Définition : Pourcentage de transparence inversement proportionnelle à l'opacité de la zone.
+- Définition : Pourcentage de transparence inversement proportionnelle à l'opacité de la zone.<br>
 
-- Type : Integer.
+- Type : Integer.<br>
 
-- Valeurs possibles : de 0 à 100.
+- Valeurs possibles : de 0 à 100.<br>
 
 - Contraintes : 1.
 
 ### Type ###
 
-- Définition : Type d'emprise du PCRS.
+- Définition : Type d'emprise du PCRS.<br>
 
-- Type : CharacterString.
+- Type : CharacterString.<br>
 
-- Valeurs possibles : Par exemple : Couloir, Opération, Carreau, LimiteAdministrative.
+- Valeurs possibles : Par exemple : Couloir, Opération, Carreau, LimiteAdministrative.<br>
 
 - Contraintes : 0..1.
 
 ### Type Mur ###
 
-- Définition : Description des ouvrages de maçonnerie s'élevant en hauteur et servant à enclore, séparer ou délimiter des espaces.
+- Définition : Description des ouvrages de maçonnerie s'élevant en hauteur et servant à enclore, séparer ou délimiter des espaces.<br>
 
-- Type : CategorieMurPCRSType.
+- Type : CategorieMurPCRSType.<br>
 
 - Contraintes : 0..1.
