@@ -305,7 +305,6 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 ### Précision XY ###
 
-1)
 - Définition : Précision planimétrique exprimée en cm.
 
 - Type : Integer.
