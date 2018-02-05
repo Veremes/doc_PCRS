@@ -56,7 +56,7 @@ Les points de canevas dont la précision ne serait pas au moins égale à celle 
 
 [Immatriculation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#immatriculation)
 
-[Numéro(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
+[Numéro Point Levé](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
 
 [Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
 

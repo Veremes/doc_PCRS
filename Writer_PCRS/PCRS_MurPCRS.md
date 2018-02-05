@@ -60,7 +60,7 @@ Ils doivent toutefois être décrits en renseignant spécifiquement les précisi
 
 [Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-[Numéro(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
+[Numéro Point Levé](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
 
 [Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
 
