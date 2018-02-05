@@ -33,8 +33,6 @@ Appuis massifs et permanents supportant le tablier d'un pont.
 
 **Géométrie**
 
-*geometrie*
-
 - Définition : Géométrie de type polygone
 
 - Type : GM_Polygon
@@ -43,13 +41,18 @@ Appuis massifs et permanents supportant le tablier d'un pont.
 
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Objet|_PCRS.IDOBJET|
-|Thématique|_PCRS.THEMATIQUE|
-|Qualité Catégorisation|QUALITECATEGORISATION|
-|Précision Planimetrique|_PCRS.PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique|PRECISIONALTIMETRIQUE|
-|Producteur|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
+[Identifiant Objet](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-objet)
+
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
+
+[Numéro(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
+
+[Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
+
+[Précision Planimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-planimetrique)
+
+[Producteur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#producteur)
+
+[Qualité Catégorisation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#qualite-categorisation)
+
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)

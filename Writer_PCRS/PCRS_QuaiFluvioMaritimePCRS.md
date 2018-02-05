@@ -31,8 +31,6 @@ Classe essentielle du PCRS
 
 **Géométrie**
 
-*geometrie*
-
 - Définition : Géométrie de quai
 
 - Type : GM_Curve
@@ -41,13 +39,18 @@ Classe essentielle du PCRS
 
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Objet|_PCRS.IDOBJET|
-|Thématique|_PCRS.THEMATIQUE|
-|Qualité Catégorisation|QUALITECATEGORISATION|
-|Précision Planimetrique|_PCRS.PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique|_PCRS.PRECISIONALTIMETRIQUE|
-|Producteur|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
+[Identifiant Objet](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-objet)
+
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
+
+[Numéro(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
+
+[Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
+
+[Précision Planimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-planimetrique)
+
+[Producteur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#producteur)
+
+[Qualité Catégorisation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#qualite-categorisation)
+
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)

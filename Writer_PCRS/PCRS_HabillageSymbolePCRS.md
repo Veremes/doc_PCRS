@@ -42,12 +42,10 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 
 [Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-[Reference](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reference)
+[Référence](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reference)
 
-[Thematique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)
 
-
-
-
+[Largeur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#largeur)
 
 [Longueur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#longueur)

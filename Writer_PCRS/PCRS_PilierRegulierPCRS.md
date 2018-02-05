@@ -32,69 +32,34 @@ Lorsque le pilier est associé à un socle ou à un mur, ses dimensions au sol d
 
 **Géométrie**
 
-*angleRotation*
-
-- Définition : Utilisé uniquement pur l'orientation du symbole de poteau. Peut être étendu pour un poteau ovale pour orienter le symbole
-
-- Type : Décimal
-
-- Valeurs possibles : Valeur angulaire en degrés décimaux
-
-- Contraintes : 1 Valeur non vide
-
-*geometrie*
-
 - Définition : Géométrie de type point
 
 - Type : GM_Point
 
 - Contraintes : 1
 
-*largeur_mm*
-
-- Définition : Utilisé uniquement pour la mise à l'échelle Y du symbole de poteau après rotation
-
-- Type : Décimal
-
-- Contraintes : 1 Valeur non vide
-
-*longueur_mm*
-
-- Définition : Utilisé uniquement pour la mise  l'échelle X du symbole de poteau après rotation
-
-- Type : Décimal
-
-- Contraintes : 1 Valeur non vide
-
-*section*
-
-- Définition : Forme de la section à la base du pilier
-
-- Type : SectionPilierPCRSType
-
-- Valeurs possibles :
-
-  - 01 = Pilier carré
-  - 02 = Pilier circulaire
-  - 03 = Pilier rectangulaire
-  - 00 = Pilier à autre forme de section
-
-
-- Contraintes : 1 Valeur non vide : l'attribut est utilisé pour différencier les piliers selon leur nature
-
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Objet|_PCRS.IDOBJET|
-|Thématique|_PCRS.THEMATIQUE|
-|Qualité Catégorisation|QUALITECATEGORISATION|
-|Précision Planimetrique|_PCRS.PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique|_PCRS.PRECISIONALTIMETRIQUE|
-|Producteur|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
-|Angle Rotation|_PCRS.ANGLEROTATION|
-|Largeur|_PCRS.LARGEUR|
-|Longueur|_PCRS.LONGUEUR|
-|Section|_PCRS.SECTION|
+[Angle de rotation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#angle-de-rotation)
+
+[Identifiant Objet](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-objet)
+
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
+
+[Largeur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#largeur)
+
+[Longueur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#longueur)
+
+[Numéro(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
+
+[Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
+
+[Précision Planimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-planimetrique)
+
+[Producteur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#producteur)
+
+[Qualité Catégorisation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#qualite-categorisation)
+
+[Section](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#section)
+
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)

@@ -28,44 +28,22 @@ Libellé de type texte positionnant de façon ponctuelle le numéro d'adresse.
 
 Contraintes de positionnement en dehors de l'espace public de la voirie, en particulier en zone dense ou très dense.
 
-**Géométrie**
-
-*idNumeroVoirie*
-
-- Définition : Identifiant unique dans le jeu de données des numéros de voirie
-
-- Type : CharacterString
-
-- Valeurs possibles : Selon la collectivité gestionnaire du PCRS, et si possible identique à celui du référentiel dont est issu la donnée
-
-- Contraintes : 1 Valeur unique
-
-*positionnement*
-
-- Définition : Indication quant au positionnement de l'élément d'habillage par rapport à la voirie
-
-- Type : CategoriePlacementPCRSType
-
-- Valeurs possibles :
-  - 01 = Sans repositionnement
-  - 02 = Axe Voirie
-  - 03 = LimiteVoirie
-  - 04 = HorsVoirie
-  - 05 = Parcelle
-
-
-- Contraintes : 0..1
-
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Habillage|_PCRS.IDHABILLAGE|
-|Thematique|_PCRS.THEMATIQUE|
-|Libelle|_PCRS.LIBELLE|
-|Angle de rotation|_PCRS_ANGLEROTATION|
-|Justification|_PCRS.JUSTIFICATION|
-|Taille|_PCRS.TAILLE|
-|Numero de voirie|_PCRS.IDNUMEROVOIRIE|
-|Positionnement|_PCRS.POSITIONNEMENT
+[Angle de rotation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#angle-de-rotation)
+
+[Identifiant Habillage](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-habillage)
+
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
+
+[Justification](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#justification)
+
+[Libellé](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#libelle)
+
+[Numéro de voirie](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-de-voirie)
+
+[Positionnement](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#positionnement)
+
+[Taille](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#taille)
+
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)

@@ -31,8 +31,6 @@ Limites de chaussée revêtue, marquant la limite de la voirie (exemple un bord 
 
 **Géométrie**
 
-*geometrie*
-
 - Définition : Géométrie de type courbe
 
 - Type : GM_Curve
@@ -41,18 +39,18 @@ Limites de chaussée revêtue, marquant la limite de la voirie (exemple un bord 
 
 **Paramètres**
 
-![Identifiant PCRS](Parametres.html#Identifiant PCRS_PCRS.ID)
+[Identifiant Objet](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-objet)
 
-![Identifiant Objet](Parametres.html#Identifiant Objet_PCRS.IDOBJET)
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
-![Thématique](Parametres.html#Thématique_PCRS.THEMATIQUE)
+[Numéro(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
 
-![Qualité Catégorisation](Parametres.html#Qualité Catégorisation_PCRS.QUALITECATEGORISATION)
+[Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
 
-![Précision Planimetrique](Parametres.html#Précision Planimetrique_PCRS.PRECISIONPLANIMETRIQUE)
+[Précision Planimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-planimetrique)
 
-![Précision Altimétrique](Parametres.html#Précision Altimétrique_PCRS.PRECISIONALTIMETRIQUE)
+[Producteur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#producteur)
 
-![Producteur](Parametres.html#Producteur_PCRS.PRODUCTEUR)
+[Qualité Catégorisation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#qualite-categorisation)
 
-![Numero(s) des Point(s) Levé(s) (séparés par ",")](Parametres.html#Numero(s) des Point(s) Levé(s) (séparés par ",")_PCRS.NUMEROPOINT)
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)

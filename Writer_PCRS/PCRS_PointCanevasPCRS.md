@@ -36,77 +36,38 @@ Les points de canevas dont la précision ne serait pas au moins égale à celle 
 
 **Géométrie**
 
-*canevas*
-
-- Définition : Type de canevas auquel appartient le point considéré
-
-- Type : CharacterString
-
-- Contraintes : 0..1  Optionnel  : lorsque le point appartient à un canevas donné, il est recommandé de le renseigner
-
-*dateCreation*
-
-- Définition : Date de création ou de mise à jour des données du point de canevas
-
-- Type : Date
-
-- Contraintes : 0..1  Optionnel  : lorsque la date de création ou de mise à jour des données du point de canevas est connue, il est obligatoire de la renseigner
-
-*fiche*
-
-- Définition : Adresse de type URL susceptible de fournir des informations supplémentaires, comme des photographies de repérage,  sur le point de canevas
-
-- Type : URL
-
-- Contraintes : 0..1
-
-*geometrie*
-
 - Définition : Géométrie du point
 
 - Type : GM_Point
 
 - Contraintes : 1
 
-*immatriculation*
-
-- Définition : Référence externe selon la convention d'immatriculation du canevas considéré
-
-- Type : CharacterString
-
-- Contraintes : 0..1  Optionnel  : lorsque le matricule du point est connu, il est obligatoire de le renseigner
-
-*PrecisionXY*
-
-- Définition : Précision planimétrique exprimée en cm
-
-- Type : Integer
-
-- Contraintes : 0..1  Optionnel, à renseigner si disponible
-
-*PrecisionZ*
-
-- Définition : Précision altimétrique exprimée en cm
-
-- Type : Integer
-
-- Contraintes : 0..1  Optionnel, à renseigner si disponible
-
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID|
-|Identifiant Objet|_PCRS.IDOBJET|
-|Thématique|_PCRS.THEMATIQUE|
-|Qualité Catégorisation|_PCRS.QUALITECATEGORISATION|
-|Précision Planimetrique|_PCRS.PRECISIONPLANIMETRIQUE|
-|Précision Altimétrique|PRECISIONALTIMETRIQUE|
-|Producteur|_PCRS.PRODUCTEUR|
-|Numero(s) des Point(s) Levé(s) (séparés par ",")|_PCRS.NUMEROPOINT|
-|Canevas|_PCRS.CANEVAS|
-|Date Creation (aaaa-mm-jj)|_PCRS.DATECREATION|
-|Fiche|_PCRS.FICHE|
-|Immatriculation|_PCRS.IMMATRICULATION|
-|Precision XY|_PCRS.PRECISIONXY|
-|Precision Z|_PCRS.PRECISIONZ|  
+[Canevas](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#canevas)
+
+[Date Création](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#date-creation)
+
+[Fiche](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#fiche)
+
+[Identifiant Objet](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-objet)
+
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
+
+[Immatriculation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#immatriculation)
+
+[Numéro(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
+
+[Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
+
+[Précision Planimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-planimetrique)
+
+[Précision XY](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-xy)
+
+[Précision Z](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-z)
+
+[Producteur](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#producteur)
+
+[Qualité Catégorisation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#qualite-categorisation)
+
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)

@@ -28,35 +28,18 @@ Classe essentielle pour l’utilisation d’orthophotoplans.
 
 **Géométrie**
 
-*geometrie*
-
 - Définition : Géométrie de type surfacique représentant la zone masquée
 
 - Type : GM_Surface  
 
 - Contraintes : 1
 
-*raster*
-
-- Type : Classe d'objets RasterPCRS
-
-- Contraintes : 1..*
-
-*transparence*
-
-- Définition : Pourcentage de transparence inversement proportionnelle à l'opacité de la zone
-
-- Type : Integer
-
-- Valeurs possibles : de 0 à 100
-
-- Contraintes : 1
-
 **Paramètres**
 
-| Libellé | Paramètre |
-| ---------|:-------------|
-|Identifiant PCRS|_PCRS.ID
-|Identifiant Habillage|_PCRS.IDHABILLAGE|
-|Thematique|_PCRS.THEMATIQUE|
-|Transparence|_PCRS.TRANSPARENCE|
+[Identifiant Habillage](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-habillage)
+
+[Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
+
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)
+
+[Transparence](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#transparence)

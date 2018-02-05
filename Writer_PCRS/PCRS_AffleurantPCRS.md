@@ -35,13 +35,17 @@ Classe essentielle du PCRS.
 
 [Gestionnaire](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#gestionnaire)
 
+[Identifiant Affleurant Symbole](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-affleurant-symbole)
+
 [Identifiant Objet](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-objet)
 
 [Identifiant PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
 
 [Identifiant Source](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-source)
 
-[Numero(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
+[Nature](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#nature)
+
+[Numéro(s) des Point(s) Levé(s) (séparés par ",")](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#numero-s-des-point-s-leve-s-separes-par)
 
 [Précision Altimétrique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#precision-altimetrique)
 
@@ -51,12 +55,8 @@ Classe essentielle du PCRS.
 
 [Qualité Catégorisation](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#qualite-categorisation)
 
-[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)
-
-[Nature](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#nature)
-
 [Réseau](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#reseau)
 
 [Source](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#source)
 
-[Identifiant Affleurant Symbole](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-affleurant-symbole)
+[Thématique](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#thematique)

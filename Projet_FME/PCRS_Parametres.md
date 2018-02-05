@@ -2,8 +2,7 @@
 
 ### Angle de rotation ###
 
-1-
-- Définition : Utilisé uniquement pour l'orientation de l'élément d'habillage
+- Définition : Utilisé pour l'orientation de l'élément d'habillage, du symbole de poteau (pouvant être étendu pour un poteau ovale pour orienter le symbole) et du symbole d'affleurant, dans le sens horaire par rapport au nord.
 
 - Type : Décimal
 
@@ -11,22 +10,13 @@
 
 - Contraintes : 1 valeur non vide
 
-2- Utilisé uniquement pour l'orientation du symbole de poteau. Peut être étendu pour un poteau ovale pour orienter le symbole.
-
-3- Angle utilisé uniquement pour l'orientation du symbole d'affleurant, dans le sens horaire par rapport au nord.
-
-
-4-
-- Définition : Utilisé uniquement pour l'orientation de l'élément d'habillage
-
-- Type : Décimal
-
-- Valeurs possibles : Valeur angulaire en degrés décimaux
-
-- Contraintes : 1
 ### Canevas ###
 
-Type de canevas auquel appartient le point considéré.
+- Définition : Type de canevas auquel appartient le point considéré
+
+- Type : CharacterString
+
+- Contraintes : 0..1  Optionnel  : lorsque le point appartient à un canevas donné, il est recommandé de le renseigner.
 
 ### Code INSEE ###
 
@@ -36,9 +26,9 @@ Type de canevas auquel appartient le point considéré.
 
 - Contraintes : 1
 
-### Complement ###
+### Complément ###
 
-- Définition : Information complémentaire liée au type d'emprise de publication du PCRS, gérée par le gestionnaire  du PCRS et potentiellement à tout utilisateur du PCRS
+- Définition : Information complémentaire liée au type d'emprise de publication du PCRS, gérée par le gestionnaire  du PCRS et potentiellement à tout utilisateur du PCRS.
 
 - Type : CharacterString
 
@@ -51,24 +41,32 @@ Type de canevas auquel appartient le point considéré.
 
    - le nom ou le type de la limite administrative pur une emprise de type administrative ...
 
-- Contraintes : 0..1 Optionnel : information en complément de l'identifiant d'emprise, et liée au type de l'emprise de publication devant être renseignée si gérée par le gestionnaire du PCRS
+- Contraintes : 0..1 Optionnel : information en complément de l'identifiant d'emprise, et liée au type de l'emprise de publication devant être renseignée si gérée par le gestionnaire du PCRS.
 
 
-### Date Creation (aaaa-mm-jj) ###
+### Date Création ###
 
-Date de création ou de mise à jour des données du point de canevas.
+- Définition : Date de création ou de mise à jour des données du point de canevas.
+
+- Type : Date au format (aaaa-mm-jj)
+
+- Contraintes : 0..1  Optionnel  : lorsque la date de création ou de mise à jour des données du point de canevas est connue, il est obligatoire de la renseigner.
 
 ### Date de Publication ###
 
-- Définition : Date de mise à disposition de l'emprise du PCRS
+- Définition : Date de mise à disposition de l'emprise du PCRS.
 
-- Type : Date
+- Type : Date au format (aaaa-mm-jj)
 
 - Contraintes : 1
 
 ### Fiche ###
 
-Adresse de type URL susceptible de fournir des informations supplémentaires, comme des photographies de repérage, sur le point de canevas.
+- Définition : Adresse de type URL susceptible de fournir des informations supplémentaires, comme des photographies de repérage,  sur le point de canevas.
+
+- Type : URL
+
+- Contraintes : 0..1
 
 ### Fournisseur ###
 ### Gestionnaire ###
@@ -94,7 +92,11 @@ Adresse de type URL susceptible de fournir des informations supplémentaires, co
 
 ### Horodatage ###
 
-Horodatage du point moment du levé topographique.
+- Définition : Horodatage du point au moment du levé topographique
+
+- Type : Date
+
+- Contraintes : 0..1 Optionnel : pour la reprise de données existantes, lorsque l'horodatage du point levé est connu, il est obligatoire de le renseigner.
 
 ### Identifiant Affleurant Symbole ###
 
@@ -116,8 +118,17 @@ Horodatage du point moment du levé topographique.
 
 Identifiant unique de l'habillage.
 
-### Identifiant habillage symbole ###
+### Identifiant Habillage Symbole ###
+
 ### Identifiant Objet ###
+
+- Définition : Identifiant unique dans le jeu de données des objets du PCRS.
+
+- Type : CharacterString
+
+- Valeurs possibles : Selon la collectivité gestionnaire du PCRS.
+
+- Contraintes : 1 Valeur unique
 
 ### Identifiant PCRS ###
 
@@ -135,7 +146,11 @@ Les identifiants sont obligatoirement renseignés. Ils sont calculés par défau
 
 ### Immatriculation ###
 
-Référence externe selon la convention d'immatriculation du canevas considéré.
+- Définition : Référence externe selon la convention d'immatriculation du canevas considéré
+
+- Type : CharacterString
+
+- Contraintes : 0..1  Optionnel  : lorsque le matricule du point est connu, il est obligatoire de le renseigner
 
 ### Justification ###
 
@@ -159,7 +174,13 @@ Référence externe selon la convention d'immatriculation du canevas considéré
 
 - Contraintes : 1 Valeur non vide
 
-2- Utilisé uniquement pour la mise à l'échelle Y du symbole de poteau après rotation.
+2-
+
+- Définition : Utilisé uniquement pour la mise à l'échelle Y du symbole de poteau après rotation
+
+- Type : Décimal
+
+- Contraintes : 1 Valeur non vide
 
 3- Utilisé uniquement pour la mise à l'échelle Y du symbole de l'affleurant.
 
@@ -182,7 +203,12 @@ Référence externe selon la convention d'immatriculation du canevas considéré
 
 - Contraintes : 1 Valeur non vide
 
-2- Utilisé uniquement pour la mise à l'échelle X du symbole de poteau après rotation.
+2-
+- Définition : Utilisé uniquement pour la mise  l'échelle X du symbole de poteau après rotation
+
+- Type : Décimal
+
+- Contraintes : 1 Valeur non vide
 
 3- Utilisé uniquement pour la mise à l'échelle X du symbole de l'affleurant.
 
@@ -219,46 +245,148 @@ Référence externe selon la convention d'immatriculation du canevas considéré
 - Contraintes : 0..1
 
 ### Nom voirie ###
-### Numero de voirie ###
-### Numero(s) des Point(s) Levé(s) (séparés par ",") ###
 
-1- Numéro attribué au point levé lors du levé topographique ou de l’intégration au référentiel selon une ou plusieurs méthodologies à préciser si possible dans les métadonnées.
+- Définition : Identifiant unique dans le jeu de données des noms voirie
 
-2- Lien vers les points levés correspondant à l‘objet.
+- Type : CharacterString
+
+- Valeurs possibles : Selon La collectivité gestionnaire du PCRS, et si possible identique à celui du référentiel dont est issu la donnée
+
+- Contraintes : 1 Valeur unique
+
+### Numéro de voirie ###
+
+- Définition : Identifiant unique dans le jeu de données des numéros de voirie
+
+- Type : CharacterString
+
+- Valeurs possibles : Selon la collectivité gestionnaire du PCRS, et si possible identique à celui du référentiel dont est issu la donnée.
+
+- Contraintes : 1 Valeur unique
+
+### Numéro(s) des Point(s) Levé(s) (séparés par ",") ###
+
+- Définition : Numéro attribué au point levé lors du levé topographique ou de l' intégration au référentiel selon une ou plusieurs méthodologies à préciser si possible dans les métadonnées.
+
+- Type : CharacterString
+
+- Valeurs possibles : Un ou plusieurs caractères alpha non accentués préfixant un nombre à valeurs dans une série numérique croissante avec possibilité de saut / valeurs manquantes dans la suite.
+
+- Contraintes : 1 Valeur non vide.
+
 
 ### Positionnement ###
 
-Indication quant au positionnement de l'élément d'habillage par rapport à la voirie.
+- Définition : Indication quant au positionnement de l'élément d'habillage par rapport à la voirie
+
+- Type : CategoriePlacementPCRSType
+
+- Valeurs possibles :
+
+  - 01 = sans repositionnement
+  - 02 = AxeVoirie
+  - 03 = LimiteVoirie
+  - 04 = HorsVoirie
+  - 05 = parcelles
+
+- Contraintes : 0..1
 
 ### Précision Altimétrique ###
 
-Intervalle de précision dans lequel s'exprime en cm la précision altimétrique associée au levé topographique de l'objet.
+- Définition : Intervalle de précision dans lequel s'exprime en cm la précision altimétrique associée au levé topographique de l'objet.
+
+- Type : Domaine de valeurs
+
+- Valeurs possibles :
+
+  - 002 = moins de 2 cm
+  - 005 = de 2 à 5 cm
+  - 010 = de 5 à 10 cm
+  - 040 = de 10 à 40 cm
+  - 150 = de 40 à 150 cm
+  - 999 = au delà de 150 cm
+
+- Contraintes : 0..1
 
 ### Précision Planimétrique ###
 
-Intervalle de précision dans lequel s'exprime en cm la précision planimétrique associée au levé topographique de l'objet.
+- Définition : Intervalle de précision dans lequel s'exprime en cm la précision planimétrique associée au levé topographique de l'objet.
 
-### Precision XY ###
+- Type : Domaine de valeurs
 
-Précision planimétrique exprimée en cm.
+- Valeurs possibles :
 
-### Precision Z ###
+  - 002 = moins de 2 cm
+  - 005 = de 2 à 5 cm
+  - 010 = de 5 à 10 cm
+  - 040 = de 10 à 40 cm
+  - 150 = de 40 à 150 cm
+  - 999 = au delà de 150 cm
 
-Précision altimétrique exprimée en cm.
+- Contraintes : 1
+
+### Précision XY ###
+
+1)
+- Définition : Précision planimétrique exprimée en cm
+
+- Type : Integer
+
+- Contraintes : 0..1  Optionnel, à renseigner si disponible
+
+2)
+- Définition : Précision planimétrique exprimée en cm
+
+- Type : Integer
+
+- Contraintes : 1 Optionnel
+
+### Précision Z ###
+
+- Définition : Précision altimétrique exprimée en cm
+
+- Type : Integer
+
+- Contraintes : 0..1  Optionnel, à renseigner si disponible (ou pour les saisies nouvelles)
 
 ### Producteur ###
 
-Producteur de la donnée.
+- Définition : Producteur de la donnée
 
-### Propriete ###
+- Type : CharacterString
 
-Distinction d'appartenance d'un tronçon de voirie à l'espace public ou à l'espace privé.
+- Valeurs possibles : La valeur sera saisie et déterminée par le producteur de façon stable. Cet attribut permettra de filtrer l'ensemble des objets d'un producteur donné.
+
+- Contraintes : 1
+
+### Propriété ###
+
+- Définition : Distinction d'appartenance  d'un tronçon de voirie à l'espace public ou à l'espace privé
+
+- Type : ProprieteEspaceType
+
+- Valeurs possibles :
+
+  - 01 = Espace public
+  - 02 = Espace privé
+
+- Contraintes : 0..1 Optionnel à renseigner si possible, lorsqu'une superposition avec les données cadastrales n'est pas envisageable.
 
 ### Qualité Catégorisation ###
 
-Indication du producteur quant à la qualité de la catégorisation. Permet des représentations plus riches pour les migrations / reprises de données.
+- Définition : Indication du producteur quant à la qualité de la catégorisation. Permet des représentations plus riches pour les migrations / reprises de données.
 
-### Reference ###
+- Type : Domaine de valeurs
+
+- Valeurs possibles :
+
+  - 01 = Très fiable / Conforme PCRS
+  - 02 = Moyennement fiable
+  - 03 = Peu fiable
+
+- Contraintes : 1
+
+### Référence ###
 
 1-
 
@@ -268,7 +396,12 @@ Indication du producteur quant à la qualité de la catégorisation. Permet des 
 
 - Contraintes : 1
 
-2- Identifiant unique du tronçon dans le référentiel source utilisé.
+2-
+- Définition : Identifiant unique du tronçon dans le référentiel source utilisé
+
+- Type : CharacterString
+
+- Valeurs possibles : Selon le fournisseur du référentiel donné
 
 3-
 - Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole
@@ -288,7 +421,7 @@ Indication du producteur quant à la qualité de la catégorisation. Permet des 
 
 - Contraintes : 1
 
-### Reseau ###
+### Réseau ###
 
 - Définition : Nature du réseau
 
@@ -331,11 +464,30 @@ Indication du producteur quant à la qualité de la catégorisation. Permet des 
 
 ### Section ###
 
-Forme de la section à la base du pilier.
+- Définition : Forme de la section à la base du pilier
+
+- Type : SectionPilierPCRSType
+
+- Valeurs possibles :
+
+  - 01 = Pilier carré
+  - 02 = Pilier circulaire
+  - 03 = Pilier rectangulaire
+  - 00 = Pilier à autre forme de section
+
+- Contraintes : 1 Valeur non vide : l'attribut est utilisé pour différencier les piliers selon leur nature
+
 
 ### Source ###
 
-1- Acronyme du référentiel utilisé.
+1-
+- Définition : Acronyme du référentiel utilisé
+
+- Type : CharacterString
+
+- Valeurs possibles : Selon le fournisseur du référentiel
+
+- Contraintes : 1
 
 2-
 
@@ -345,7 +497,7 @@ Forme de la section à la base du pilier.
 
 - Valeurs possibles : Nom d'application ou de base de données dans le système d'information du gestionnaire de réseaux
 
-- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée
+- Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée.
 
 ### Taille ###
 
@@ -357,11 +509,37 @@ Forme de la section à la base du pilier.
 
 ### Thématique ###
 
-1- La thématique à laquelle est associé l'élément d'habillage du PCRS.
+- Définition : La thématique à laquelle est associé chaque objet du PCRS.
 
-2- La thématique à laquelle est associé chaque objet du PCRS.
+- Type : Domaine de valeurs.
+
+- Valeurs possibles :
+
+  - 10 = Affleurant
+  - 00 = A déterminer
+  - 01 = Topographie
+  - 02 = Bâti
+  - 03 = Voirie
+  - 04 = Ferroviaire
+  - 05 = Clôture
+  - 06 = Végétal
+  - 07 = Ouvrage d'art
+  - 08 = Hydrographie
+  - 09 = Orographie
+  - 99 = Non définie
+
+- Contraintes : 1 en général à valeur unique par classe d'objet dérivé.
 
 ### Transparence ###
+
+- Définition : Pourcentage de transparence inversement proportionnelle à l'opacité de la zone
+
+- Type : Integer
+
+- Valeurs possibles : de 0 à 100
+
+- Contraintes : 1
+
 ### Type ###
 
 - Définition : Type d'emprise du PCRS
@@ -374,4 +552,8 @@ Forme de la section à la base du pilier.
 
 ### Type Mur ###
 
-Description des ouvrages de maçonnerie s'élevant en hauteur et servant à enclore, séparer ou délimiter des espaces.
+- Définition : Description des ouvrages de maçonnerie s'élevant en hauteur et servant à enclore, séparer ou délimiter des espaces.
+
+- Type : CategorieMurPCRSType
+
+- Contraintes : 0..1
