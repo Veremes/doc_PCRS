@@ -34,9 +34,9 @@
 
 - Valeurs possibles : Selon le type d'emprise de publication, par exemple :<br><br>
 
-   - un toponyme pour une emprise de type couloir.
-   - le nom de l'opération pour une emprise de concernant une opération donnée,
-   - la référence du carreau (si elle n'est pas redondante avec l'identifiant de l'emprise), ou le nom du carroyage pour une emprise de type régulière,
+   - un toponyme pour une emprise de type couloir.<br>
+   - le nom de l'opération pour une emprise de concernant une opération donnée,<br>
+   - la référence du carreau (si elle n'est pas redondante avec l'identifiant de l'emprise), ou le nom du carroyage pour une emprise de type régulière,<br>
    - le nom ou le type de la limite administrative pur une emprise de type administrative ...<br><br>
 
 - Contraintes : 0..1 Optionnel : information en complément de l'identifiant d'emprise, et liée au type de l'emprise de publication devant être renseignée si gérée par le gestionnaire du PCRS.
@@ -165,8 +165,8 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 - Type : TexteJustificationPCRSType.<br><br>
 
 - Valeurs possibles :<br><br>
-  - G = Gauche,
-  - C = Centré,
+  - G = Gauche,<br>
+  - C = Centré,<br>
   - D = Droite.<br><br>
 
 - Contraintes : 1.
@@ -205,12 +205,12 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles : Selon le système d'information du gestionnaire de réseaux<br><br>
 
-  - 01 = avaloirs,
-  - 02 = Boîte, Coffret, Armoire,
-  - 03 = Tampon, plaque, chambre,
-  - 04 = Branchement, vanne, bouche à clé,
-  - 05 = Bouche incendie, Poteau incendie,
-  - 06 = poteaux,
+  - 01 = avaloirs,<br>
+  - 02 = Boîte, Coffret, Armoire,<br>
+  - 03 = Tampon, plaque, chambre,<br>
+  - 04 = Branchement, vanne, bouche à clé,<br>
+  - 05 = Bouche incendie, Poteau incendie,<br>
+  - 06 = poteaux,<br>
   - 07 = Poteau/borne d'éclairage.<br><br>
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée.
@@ -261,10 +261,10 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles :<br><br>
 
-  - 01 = sans repositionnement,
-  - 02 = AxeVoirie,
-  - 03 = LimiteVoirie,
-  - 04 = HorsVoirie,
+  - 01 = sans repositionnement,<br>
+  - 02 = AxeVoirie,<br>
+  - 03 = LimiteVoirie,<br>
+  - 04 = HorsVoirie,<br>
   - 05 = parcelles.<br><br>
 
 - Contraintes : 0..1.
@@ -277,11 +277,11 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles :<br><br>
 
-  - 002 = moins de 2 cm,
-  - 005 = de 2 à 5 cm,
-  - 010 = de 5 à 10 cm,
-  - 040 = de 10 à 40 cm,
-  - 150 = de 40 à 150 cm,
+  - 002 = moins de 2 cm,<br>
+  - 005 = de 2 à 5 cm,<br>
+  - 010 = de 5 à 10 cm,<br>
+  - 040 = de 10 à 40 cm,<br>
+  - 150 = de 40 à 150 cm,<br>
   - 999 = au delà de 150 cm.<br><br>
 
 - Contraintes : 0..1.
@@ -294,11 +294,11 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles :<br><br>
 
-  - 002 = moins de 2 cm,
-  - 005 = de 2 à 5 cm,
-  - 010 = de 5 à 10 cm,
-  - 040 = de 10 à 40 cm,
-  - 150 = de 40 à 150 cm,
+  - 002 = moins de 2 cm,<br>
+  - 005 = de 2 à 5 cm,<br>
+  - 010 = de 5 à 10 cm,<br>
+  - 040 = de 10 à 40 cm,<br>
+  - 150 = de 40 à 150 cm,<br>
   - 999 = au delà de 150 cm.<br><br>
 
 - Contraintes : 1.
@@ -337,7 +337,7 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles :<br><br>
 
-  - 01 = Espace public,
+  - 01 = Espace public,<br>
   - 02 = Espace privé.<br><br>
 
 - Contraintes : 0..1 Optionnel à renseigner si possible, lorsqu'une superposition avec les données cadastrales n'est pas envisageable.
@@ -350,15 +350,15 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles :<br><br>
 
-  - 01 = Très fiable / Conforme PCRS,
-  - 02 = Moyennement fiable,
+  - 01 = Très fiable / Conforme PCRS,<br>
+  - 02 = Moyennement fiable,<br>
   - 03 = Peu fiable.<br><br>
 
 - Contraintes : 1.
 
 ### Référence ###
 
-1) Lien vers un objet « commune »<br><br>
+1- Lien vers un objet « commune »<br><br>
 
 - Définition : Référence vers une base de données des communes.<br>
 
@@ -366,7 +366,7 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Contraintes : 1.<br><br>
 
-2) Tronçon de Voie
+2- Tronçon de Voie
 
 - Définition : Identifiant unique du tronçon dans le référentiel source utilisé.<br><br>
 
@@ -374,7 +374,7 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles : Selon le fournisseur du référentiel donné.
 
-3) Symbole d'habillage du PCRS
+3- Symbole d'habillage du PCRS
 
 - Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole.<br><br>
 
@@ -382,7 +382,7 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Contraintes : 1 Valeur non vide.
 
-4) Affleurant du PCRS représenté par un symbole
+4- Affleurant du PCRS représenté par un symbole
 
 - Définition : Désignation du symbole à utiliser pour la représentation de l'affleurant.<br>
 
@@ -390,7 +390,7 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Contraintes : 1 Valeur non vide.
 
-5) Arbre
+5- Arbre
 
 - Définition : Désignation du symbole à utiliser pour la représentation de l'arbre.<br><br>
 
@@ -408,20 +408,20 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles :<br><br>
 
-  - ASSAEU = Eaux usées,
-  - ASSARU = Réseau unitaire,
-  - 00 = Non défini,
-  - ASSA = Assainissement ou pluvial,
-  - AEP = Eau potable,
-  - ELECECL = Electricité,
-  - GAZ = Gaz,
-  - MULT = Multi-réseaux,
-  - ELECSLT = Signalisation lumineuse tricolore,
-  - COM = Télécom,
-  - ASSAEP = Eaux pluviales,
-  - DECH = déchets,
-  - INCE = Incendie,
-  - CHIM = Produits chimiques,
+  - ASSAEU = Eaux usées,<br>
+  - ASSARU = Réseau unitaire,<br>
+  - 00 = Non défini,<br>
+  - ASSA = Assainissement ou pluvial,<br>
+  - AEP = Eau potable,<br>
+  - ELECECL = Electricité,<br>
+  - GAZ = Gaz,<br>
+  - MULT = Multi-réseaux,<br>
+  - ELECSLT = Signalisation lumineuse tricolore,<br>
+  - COM = Télécom,<br>
+  - ASSAEP = Eaux pluviales,<br>
+  - DECH = déchets,<br>
+  - INCE = Incendie,<br>
+  - CHIM = Produits chimiques,<br>
   - CHAU = Chauffage et climatisation.<br><br>
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée.
@@ -434,16 +434,16 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles :<br><br>
 
-  - 01 = Pilier carré,
-  - 02 = Pilier circulaire,
-  - 03 = Pilier rectangulaire,
+  - 01 = Pilier carré,<br>
+  - 02 = Pilier circulaire,<br>
+  - 03 = Pilier rectangulaire,<br>
   - 00 = Pilier à autre forme de section.<br><br>
 
 - Contraintes : 1 Valeur non vide : l'attribut est utilisé pour différencier les piliers selon leur nature.
 
 ### Source ###
 
-1) Tronçon de Voie
+1- Tronçon de Voie
 
 - Définition : Acronyme du référentiel utilisé.<br>
 
@@ -453,7 +453,7 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Contraintes : 1.
 
-2) Affleurant du PCRS
+2- Affleurant du PCRS
 
 - Définition : Source de données d'affleurant dans le SI du gestionnaire de réseaux.<br><br>
 
@@ -479,17 +479,17 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles :<br><br>
 
-  - 10 = Affleurant,
-  - 00 = A déterminer,
-  - 01 = Topographie,
-  - 02 = Bâti,
-  - 03 = Voirie,
-  - 04 = Ferroviaire,
-  - 05 = Clôture,
-  - 06 = Végétal,
-  - 07 = Ouvrage d'art,
-  - 08 = Hydrographie,
-  - 09 = Orographie,
+  - 10 = Affleurant,<br>
+  - 00 = A déterminer,<br>
+  - 01 = Topographie,<br>
+  - 02 = Bâti,<br>
+  - 03 = Voirie,<br>
+  - 04 = Ferroviaire,<br>
+  - 05 = Clôture,<br>
+  - 06 = Végétal,<br>
+  - 07 = Ouvrage d'art,<br>
+  - 08 = Hydrographie,<br>
+  - 09 = Orographie,<br>
   - 99 = Non définie.<br><br>
 
 - Contraintes : 1 en général à valeur unique par classe d'objet dérivé.
