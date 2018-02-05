@@ -245,14 +245,13 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 ### Numéro Point Levé ###
 
-- Définition : Numéro(s) attribué(s) au point levé lors du levé topographique ou de l'intégration au référentiel (séparés par ",").
+- Définition : Numéro(s) attribué(s) au point(s) levé(s) lors du levé topographique ou de l'intégration au référentiel (séparés par ",").
 
 - Type : CharacterString.
 
 - Valeurs possibles : Un ou plusieurs caractères alpha non accentués préfixant un nombre à valeurs dans une série numérique croissante avec possibilité de saut / valeurs manquantes dans la suite.
 
 - Contraintes : 1 Valeur non vide.
-
 
 ### Positionnement ###
 
@@ -313,13 +312,6 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Contraintes : 0..1  Optionnel, à renseigner si disponible.
 
-2)
-- Définition : Précision planimétrique exprimée en cm.
-
-- Type : Integer.
-
-- Contraintes : 1 Optionnel.
-
 ### Précision Z ###
 
 - Définition : Précision altimétrique exprimée en cm.
@@ -367,38 +359,47 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 ### Référence ###
 
-1-
+1) Lien vers un objet « commune »
 
-- Définition : Référence vers une base de données des communes
+- Définition : Référence vers une base de données des communes.
 
-- Type : CharacterString
+- Type : CharacterString.
 
-- Contraintes : 1
+- Contraintes : 1.
 
-2-
-- Définition : Identifiant unique du tronçon dans le référentiel source utilisé
+2) Tronçon de Voie
 
-- Type : CharacterString
+- Définition : Identifiant unique du tronçon dans le référentiel source utilisé.
 
-- Valeurs possibles : Selon le fournisseur du référentiel donné
+- Type : CharacterString.
 
-3-
-- Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole
+- Valeurs possibles : Selon le fournisseur du référentiel donné.
 
-- Type : CharacterString
+3) Symbole d'habillage du PCRS
 
-- Contraintes : 1 Valeur non vide
+- Définition : Désignation du symbole à utiliser pour la représentation de l'habillage sous forme de symbole.
 
-4- Désignation du symbole à utiliser pour la représentation de l'affleurant.
+- Type : CharacterString.
 
-5-
+- Contraintes : 1 Valeur non vide.
+
+4) Affleurant du PCRS représenté par un symbole
+
+- Définition : Désignation du symbole à utiliser pour la représentation de l'affleurant.
+
+- Type : CharacterString.
+
+- Contraintes : 1 Valeur non vide.
+
+5) Arbre
+
 - Définition : Désignation du symbole à utiliser pour la représentation de l'arbre.
 
-- Type : CharacterString
+- Type : CharacterString.
 
-- Valeurs possibles : Permet le cas échéant de faire référence à des essences ou espèces d'arbres différents
+- Valeurs possibles : Permet le cas échéant de faire référence à des essences ou espèces d'arbres différents.
 
-- Contraintes : 1
+- Contraintes : 1.
 
 ### Réseau ###
 
@@ -443,22 +444,23 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 ### Source ###
 
-1-
-- Définition : Acronyme du référentiel utilisé
+1) Tronçon de Voie
 
-- Type : CharacterString
+- Définition : Acronyme du référentiel utilisé.
 
-- Valeurs possibles : Selon le fournisseur du référentiel
+- Type : CharacterString.
 
-- Contraintes : 1
+- Valeurs possibles : Selon le fournisseur du référentiel.
 
-2-
+- Contraintes : 1.
 
-- Définition : Source de données d'affleurant dans le SI du gestionnaire de réseaux
+2) Affleurant du PCRS
 
-- Type : CharacterString
+- Définition : Source de données d'affleurant dans le SI du gestionnaire de réseaux.
 
-- Valeurs possibles : Nom d'application ou de base de données dans le système d'information du gestionnaire de réseaux
+- Type : CharacterString.
+
+- Valeurs possibles : Nom d'application ou de base de données dans le système d'information du gestionnaire de réseaux.
 
 - Contraintes : 0..1 Optionnel : selon les données entretenues par le gestionnaire de réseau concerné, cette valeur doit si possible être renseignée.
 
