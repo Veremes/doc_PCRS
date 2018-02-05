@@ -262,7 +262,6 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Valeurs possibles : Selon le système d'information du gestionnaire de réseaux
 
-
   - 01 = avaloirs,
 
   - 02 = Boîte, Coffret, Armoire,
@@ -338,7 +337,6 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 
 - Valeurs possibles :
-
 
   - 01 = sans repositionnement,
 
