@@ -6,6 +6,6 @@ La version minimale de FME à utiliser est la 2016.1.
 
 Chaque Writer est associé à une classe du standard PCRS et les classes correspondent à des Transformers personnalisés dans FME. Par exemple, pour la classe "ArbrePCRS" issue de la sous-classe "ObjetVecteurPCRS", le Transformer personnalisé "PCRS_ArbrePCRS" va être utilisé.
 
-![](../../Images/TP.jpg)
+![](../Images\TP.PNG)
 
 ![](https://raw.githubusercontent.com/Veremes/doc_PCRS/master/Images/TP.PNG)
