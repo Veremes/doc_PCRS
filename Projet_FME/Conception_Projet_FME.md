@@ -43,15 +43,21 @@ C'est à l'utilisateur de gérer cette partie en retravaillant les données pour
 
 **Exemple**
 
-Un type d'entités source au format DGN nommé "Spits+txt" et correspondant à des points levés est ouvert dans le projet FME.
+Un type d'entités source au format DGN nommé "Spits+txt" et correspondant à des points du canevas est ouvert dans le projet FME. L'idée est de connecter ce type d'entités source au Transformer correspondant nommé "PCRS_PointCanevasPCRS".
 
-Voici la représentation d'un point dans le Data Inspector.
+Voici la représentation d'un point de la classe d'origine "Spits+txt" dans le Data Inspector. En terme de géométrie, il ne s'agit pas d'un seul point, mais de plusieurs éléments (lignes, point, annotation).
 
 ![](https://raw.githubusercontent.com/Veremes/doc_PCRS/master/Images/point.PNG)
 
+Le Transformer "PCRS_PointCanevasPCRS" attend un entrée une géométrie ponctuelle. Le type d'entités source ne peut donc pas être relié directement au Transformer, il nécessite un prétraitement.
 
+L'objectif est alors de convertir chaque point d'origine composé de lignes, d'un point et d'une annotation en un seul point.
 
-souhaite relier son type d'entités correspondant aux points levés "Spits+txt" au Transformer "PCRS_PointCanevasPCRS",   
+Les géométries initiales constituant le point sont définies par un numéro et un nom de cellule identique. Un regroupement peut alors être effectué sur ce critère avec le Transformer nommé "Aggregator".
+
+En sortant de ce Transformer l'ensemble des géométries d'un point d'origine ne forment plus qu'un seul objet. L'étape suivante consiste alors à remplacer chaque objet par un point avec le Transformer "VertexCreator".
+
+![](https://raw.githubusercontent.com/Veremes/doc_PCRS/master/Images/points_canevas.PNG)
 
 ## Paramétrer les Transformers personnalisés ##
 
