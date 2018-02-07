@@ -1,11 +1,8 @@
 # Conception du projet FME #
+
 Le projet Writers PCRS permettant l'écriture des données PCRS dans le format GML, nécessite un minimum de connaissances dans l'utilisation du logiciel FME.
 
-Chaque Transformers personnalisés dans FME est associé à une classe du standard PCRS.
-
-la structure des données en sortie correspondant aux spécifications du standard.
-
-Le produit Writers PCRS contient 31 formats personnalisés.
+Le produit Writers PCRS correspond dans FME à 31 Transformers personnalisés. A l'exception de quelques Transformers de fonctionnement, chaque Transformers personnalisés est associé à une classe du standard PCRS.
 
 ## Prérequis ##
 
@@ -15,9 +12,9 @@ La version minimale de FME à utiliser est la 2016.1.
 
 **Installation des Transformers personnalisés**
 
-- Clique-droit sur les Transformers personnalisés > "Install".
+- Clique-droit sur chaque Transformer personnalisé > "Install".
 
-- Ou bien, déplacer l'ensemble des Transformers personnalisés dans le répertoire : \Documents\FME\Transformers.
+- Ou bien, déplacer directement l'ensemble des Transformers personnalisés dans le répertoire : \Documents\FME\Transformers.
 
 ## Lien entre les données source et les Writers PCRS ##
 
@@ -39,11 +36,11 @@ C'est le même principe pour l'ensemble des classes comme l'illustre la figure c
 
 Parfois, les données ne sont pas exploitables directement et nécessitent un prétraitement.
 
-C'est à l'utilisateur de gérer cette partie en retravaillant les données pour les rendre conformes aux spécifications des Transformers.
+C'est à l'utilisateur de gérer cette partie en retravaillant les données pour les rendre conformes aux prérequis des Transformers.
 
 **Exemple**
 
-Un type d'entités source au format DGN nommé "Spits+txt" et correspondant à des points du canevas est ouvert dans le projet FME. L'idée est de connecter ce type d'entités source au Transformer correspondant nommé "PCRS_PointCanevasPCRS".
+Un type d'entités source au format DGN nommé "Spits+txt" et correspondant à des points du canevas est ouvert dans le projet FME. L'idée est de connecter ce type d'entités source au Transformer associé nommé "PCRS_PointCanevasPCRS".
 
 Voici la représentation d'un point de la classe d'origine "Spits+txt" dans le Data Inspector. En terme de géométrie, il ne s'agit pas d'un seul point, mais de plusieurs éléments (lignes, point, annotation).
 
@@ -59,7 +56,17 @@ En sortant de ce Transformer l'ensemble des géométries d'un point d'origine ne
 
 ![](https://raw.githubusercontent.com/Veremes/doc_PCRS/master/Images/points_canevas.PNG)
 
+La nécessité des traitements en amont sur les types d'entités dépend de la qualité des données source.
+
 ## Paramétrer les Transformers personnalisés ##
+
+Lorsque la données source est connectée au Transformer personnalisé, le paramétrage de ce dernier peut alors être réalisé.
+
+A l'ouverture d'un Transformer personnalisé, plusieurs éléments sont proposés. Les champs obligatoires sont visibles en rouge et les champs optionnels en blanc.
+
+![](https://raw.githubusercontent.com/Veremes/doc_PCRS/master/Images/transformer_facade.PNG)
+
+La rubrique [Description du Writer PCRS pour FME](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#description-du-writer-pcrs-pour-fme) donne des informations sur les classes du PCRS et la page [Paramètres publiés](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#PCRS_Parametres) explique pour chaque Transformers personnalisés ce qui est attendu comme paramétrages.
 
 ## Regroupement des différents Writers PCRS ##
 
