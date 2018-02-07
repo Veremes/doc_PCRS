@@ -66,7 +66,7 @@ A l'ouverture d'un Transformer personnalisé, plusieurs éléments sont proposé
 
 ![](https://raw.githubusercontent.com/Veremes/doc_PCRS/master/Images/transformer_facade.PNG)
 
-La rubrique [Description du Writer PCRS pour FME](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#description-du-writer-pcrs-pour-fme) donne des informations sur les classes du PCRS et la page [Paramètres publiés](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#PCRS_Parametres) explique pour chaque Transformers personnalisés ce qui est attendu comme paramétrages.
+La rubrique [Description du Writer PCRS pour FME](http://doc-pcrs.readthedocs.io/fr/latest/Writer_PCRS/index.html#description-du-writer-pcrs-pour-fme) donne des informations sur les classes du PCRS et la page [Paramètres publiés](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#PCRS_Parametres) explique pour chaque Transformers personnalisés ce qui est attendu comme paramétrages.
 
 ## Regroupement des différents Writers PCRS ##
 
