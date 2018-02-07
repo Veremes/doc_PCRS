@@ -66,8 +66,20 @@ A l'ouverture d'un Transformer personnalisé, plusieurs éléments sont proposé
 
 ![](https://raw.githubusercontent.com/Veremes/doc_PCRS/master/Images/transformer_facade.PNG)
 
-La rubrique [Description du Writer PCRS pour FME](http://doc-pcrs.readthedocs.io/fr/latest/Writer_PCRS/index.html#description-du-writer-pcrs-pour-fme) donne des informations sur les classes du PCRS et la page [Paramètres publiés](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#PCRS_Parametres) explique pour chaque Transformers personnalisés ce qui est attendu comme paramétrages.
+La rubrique [Description du Writer PCRS pour FME](http://doc-pcrs.readthedocs.io/fr/latest/Writer_PCRS/index.html#description-du-writer-pcrs-pour-fme) donne des informations sur les classes du PCRS et liste les paramètres par Transformers, et la page [Paramètres publiés](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#PCRS_Parametres) explique tous les paramétrages des Transformers correspondant à des paramètres publiés pour FME.
 
-## Regroupement des différents Writers PCRS ##
+## Regroupement des différents Transformers personnalisés ##
+
+Les Transformers personnalisés doivent rejoindre le Transformer nommé "PCRS_EmpriseEchangePCRS". En effet, les différents objets du PCRS sont liés à l'emprise.
+
+Le Transformer "PCRS_MergePCRSObjects" va quant-à lui regrouper l'emprise et l'ensemble des objets associés en fusionnant les éléments de XML des données entrantes.
+
+A ce stade, un attribut dans FME contient l'ensemble du XML.
 
 ## Validation du fichier GML ##
+
+Le Transformer "XMLValidator" peut être intégré pour valider le contenu de l'attribut XML en fonction des impératifs du XSD du standard.
+
+Suite à la validation, l'attribut est renommé pour être exporté dans un fichier texte au format GML.
+
+![](https://raw.githubusercontent.com/Veremes/doc_PCRS/master/Images/regroupement.PNG)
