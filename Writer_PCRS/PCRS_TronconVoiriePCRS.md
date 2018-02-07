@@ -25,11 +25,9 @@ Classe accompagnant les métadonnées de publication du PCRS.
 
 **Géométrie**
 
-- Définition : Géométrie de type courbe
+- Définition : Géométrie de type courbe.
 
-- Type : GM_Curve
-
-- Contraintes : 1
+- Type : GM_Curve.
 
 **Paramètres**
 

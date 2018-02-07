@@ -36,11 +36,9 @@ Ne tient pas compte des éventuels décrochements de seuil (seuils de maison, de
 
 **Géométrie**
 
-- Définition : Géométrie de type de courbe
+- Définition : Géométrie de type de courbe.
 
-- Type : GM_Curve
-
-- Contraintes : 1
+- Type : GM_Curve.
 
 **Paramètres**
 

@@ -37,11 +37,9 @@ La ligne est définie comme le segment reliant deux points levés (dans le même
 
 **Géométrie**
 
-- Définition : Géométrie de type courbe
+- Définition : Géométrie de type courbe.
 
-- Type : GM_Curve
-
-- Contraintes : 1
+- Type : GM_Curve.
 
 **Paramètres**
 

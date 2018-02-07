@@ -33,11 +33,9 @@ Appuis massifs et permanents supportant le tablier d'un pont.
 
 **Géométrie**
 
-- Définition : Géométrie de type polygone
+- Définition : Géométrie de type polygone.
 
-- Type : GM_Polygon
-
-- Contraintes : 1
+- Type : GM_Polygon.
 
 **Paramètres**
 

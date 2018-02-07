@@ -29,11 +29,9 @@ Classe permettant de décrire les arbres régulièrement entretenus de la voirie
 
  **Géométrie**
 
-- Définition : Géométrie de type multi-point
+- Définition : Géométrie de type multi-point.
 
-- Type : GM_Point
-
-- Contraintes : 1
+- Type : GM_Point.
 
  **Paramètres**
 

@@ -28,11 +28,9 @@ Multipoints
 
 **Géométrie**
 
-- Définition : géométrie de type multi-points
+- Définition : Géométrie de type multi-points.
 
-- Type : GM_MultiPoint
-
-- Contraintes : 1
+- Type : GM_MultiPoint.
 
 **Paramètres**
 

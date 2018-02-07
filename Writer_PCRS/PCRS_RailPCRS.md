@@ -40,11 +40,9 @@ Ne concerne que les voies situées sur le domaine public ou en assurant sa desse
 
 **Géométrie**
 
-- Définition : Géométrie de type courbe
+- Définition : Géométrie de type courbe.
 
-- Type : GM_Curve
-
-- Contraintes : 1
+- Type : GM_Curve.
 
 **Paramètres**
 

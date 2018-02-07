@@ -40,11 +40,9 @@ Tout point servant à qualifier un objet du PCRS en tant que support pour une co
 
 **Géométrie**
 
-- Définition : Géométrie de type ponctuel
+- Définition : Géométrie de type ponctuel.
 
-- Type : GM_Point
-
-- Contraintes : 1
+- Type : GM_Point.
 
 **Paramètres**
 

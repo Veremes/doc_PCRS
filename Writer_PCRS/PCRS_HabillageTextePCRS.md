@@ -34,11 +34,9 @@ Contraintes de positionnement en dehors de la voirie, en particulier en zone den
 
 **Géométrie**
 
-- Définition : Géométrie de type point
+- Définition : Géométrie de type point.
 
-- Type : GM_Point
-
-- Contraintes : 1
+- Type : GM_Point.
 
 **Pramètres**
 

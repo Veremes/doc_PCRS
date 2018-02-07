@@ -31,11 +31,9 @@ Limites de chaussée revêtue, marquant la limite de la voirie (exemple un bord 
 
 **Géométrie**
 
-- Définition : Géométrie de type courbe
+- Définition : Géométrie de type courbe.
 
-- Type : GM_Curve
-
-- Contraintes : 1
+- Type : GM_Curve.
 
 **Paramètres**
 

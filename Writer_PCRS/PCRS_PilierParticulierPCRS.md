@@ -38,11 +38,9 @@ Lorsque le pilier est attenant à un socle ou à un mur, ses dimensions au sol d
 
 **Géométrie**
 
-- Définition : Géométrie de type courbe
+- Définition : Géométrie de type courbe.
 
-- Type : GM_Curve
-
-- Contraintes : 1
+- Type : GM_Curve.
 
 **Paramètres**
 

@@ -33,11 +33,9 @@ Multilignes
 
 **Géométrie**
 
-- Définition : géométrie de type multi-courbe
+- Définition : géométrie de type multi-courbe.
 
-- Type : GM_MultiCurve
-
-- Contraintes : 1
+- Type : GM_MultiCurve.
 
 **Paramètres**
 

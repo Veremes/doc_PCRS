@@ -28,11 +28,9 @@ Classe essentielle pour l’utilisation d’orthophotoplans.
 
 **Géométrie**
 
-- Définition : Géométrie de type surfacique représentant la zone masquée
+- Définition : Géométrie de type surfacique représentant la zone masquée.
 
-- Type : GM_Surface  
-
-- Contraintes : 1
+- Type : GM_Surface .
 
 **Paramètres**
 

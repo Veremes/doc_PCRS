@@ -36,11 +36,9 @@ Les points de canevas dont la précision ne serait pas au moins égale à celle 
 
 **Géométrie**
 
-- Définition : Géométrie du point
+- Définition : Géométrie du point.
 
-- Type : GM_Point
-
-- Contraintes : 1
+- Type : GM_Point.
 
 **Paramètres**
 

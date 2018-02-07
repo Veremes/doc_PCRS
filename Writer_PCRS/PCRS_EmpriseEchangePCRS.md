@@ -43,11 +43,9 @@ Les emprises d'échanges du PCRS peuvent suivre des logiques différentes :
 
  **Géométrie**
 
-- Définition : Géométrie représentée par un ensemble de surface
+- Définition : Géométrie représentée par un ensemble de surface.
 
-- Type : GM_MultiSurface
-
-- Contraintes : 1
+- Type : GM_MultiSurface.
 
 **Paramètres**
 

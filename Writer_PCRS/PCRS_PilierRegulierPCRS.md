@@ -32,11 +32,9 @@ Lorsque le pilier est associé à un socle ou à un mur, ses dimensions au sol d
 
 **Géométrie**
 
-- Définition : Géométrie de type point
+- Définition : Géométrie de type point.
 
-- Type : GM_Point
-
-- Contraintes : 1
+- Type : GM_Point.
 
 **Paramètres**
 

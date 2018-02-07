@@ -21,7 +21,7 @@ IMPORTANT : un affleurant de réseau correspond à un objet métier géré non p
 
 **Modélisation**
 
-Selon les classes d'affleurant spécialisées, et représentées (de préférence) par une représentation exhaustive et intéropérable comme le polygone AffleurantEnveloppePCRS, éventuellement complété par un habillage de type HabillageLignesPCRS, néanmoins d'autres modélisation géométriques sont offertes afin de ne pas perdre d'informations. La modélisation géométrique est propre à chacune des classes d'affleurant spécialisées AffleurantXXXPCRS du PCRS.
+Selon les classes d'affleurant spécialisées, et représentées (de préférence) par une représentation exhaustive et interopérable comme le polygone AffleurantEnveloppePCRS, éventuellement complété par un habillage de type HabillageLignesPCRS, néanmoins d'autres modélisation géométriques sont offertes afin de ne pas perdre d'informations. La modélisation géométrique est propre à chacune des classes d'affleurant spécialisées AffleurantXXXPCRS du PCRS.
 
 **La classe contient**
 

@@ -39,9 +39,7 @@ L'escalier du PCRS doit obligatoirement être situé à l'extérieur, et propose
 
 **Géométrie**
 
-- Type : GM_Curve
-
-- Contraintes : 1
+- Type : GM_Curve.
 
 **Paramètres**
 

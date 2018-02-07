@@ -24,11 +24,9 @@ Seuls sont considérés les objets « commune » d'un jeu de données de référ
 
  **Géométrie**
 
-- Définition : Géométrie de la commune
+- Définition : Géométrie de la commune.
 
-- Type : GM_MultiSurface
-
-- Contraintes : 1
+- Type : GM_MultiSurface.
 
 **Paramètres**
 

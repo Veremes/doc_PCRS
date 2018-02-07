@@ -50,9 +50,7 @@ Ils doivent toutefois être décrits en renseignant spécifiquement les précisi
 
 **Géométrie**
 
-- Type : GM_Curve
-
-- Contraintes : 1
+- Type : GM_Curve.
 
 **Paramètres**
 

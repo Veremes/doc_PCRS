@@ -29,11 +29,9 @@ Classe essentielle du PCRS.
 
 **Géométrie**
 
-- Définition : Géométrie du quai
+- Définition : Géométrie du quai.
 
-- Type : GM_Curve
-
-- Contraintes : 1
+- Type : GM_Curve.
 
 **Paramètres**
 

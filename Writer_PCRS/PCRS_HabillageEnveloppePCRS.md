@@ -29,11 +29,9 @@ Surfacique
 
 **Géométrie**
 
-- Définition : Géométrie de type surfacique
+- Définition : Géométrie de type surfacique.
 
-- Type : GM_Polygon
-
-- Contraintes : 1
+- Type : GM_Polygon.
 
 **Paramètres**
 
