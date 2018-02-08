@@ -1,4 +1,4 @@
-# Paramètres publiés #
+# Paramètres des Transformers #
 
 ### Angle de rotation ###
 
