@@ -10,11 +10,22 @@ Le produit Writers PCRS correspond dans FME à 31 Transformers personnalisés. A
 
 La version minimale de FME à utiliser est la 2016.1.
 
-**Installation des Transformers personnalisés**
+**Installation de l'extension PCRS pour FME**
 
-- Clique-droit sur chaque Transformer personnalisé > "Install".
+Suite à l'installation de l'extension PCRS pour FME, vous disposerez d'un trentaine de transformers supplémentaires correspondant aux classes du PCRS (PCRS_MarcheEscalierPCRS, PCRS_AffleurantPCRS...) et à des fonctions utilitaires (PCRS_MergePCRSObjects...).
 
-- Ou bien, déplacer directement l'ensemble des Transformers personnalisés dans le répertoire : \Documents\FME\Transformers.
+Ces transformers sont regroupés dans la catégorie PCRS de la galerie des Transformers de FME et commencent tous par le préfixe PCRS_. Il vous suffit donc de taper ces lettres dans l'espace de travail de FME Workbench pour en obtenir la liste et pouvoir sélectionner le transformer de votre choix.
+
+**Licence PCRS pour FME**
+
+L'extension PCRS pour FME est protégée par un fichier de licence.
+Vous pouvez effectuer une demande de licence auprès de codes@veremes.com en fournissant votre code machine/registration key (n° à 10 chiffres visible dans l'utilitaire FME Licensing Assistant).
+
+En l'absence de fichier de licence, les transformers fonctionnent correctement mais ne laissent passer que 20 entités par classe et 500 au total.
+
+**Limitations**
+
+Actuellement seules les données vectorielles sont supportées par PCRS pour FME et il n'est possible de générer qu'une emprise par document GML. Le support du raster est prévu avant la fin de l'année 2018.
 
 ## Lien entre les données source et les Writers PCRS ##
 
