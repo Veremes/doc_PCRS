@@ -8,7 +8,7 @@ Le produit Writers PCRS correspond dans FME à 31 Transformers personnalisés. A
 
 **Version FME**
 
-La version minimale de FME à utiliser est la 2016.1.
+La version minimale de FME à utiliser est la 2016.1.3.2.
 
 **Installation de l'extension PCRS pour FME**
 
