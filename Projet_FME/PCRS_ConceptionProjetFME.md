@@ -1,6 +1,6 @@
 # Conception du projet FME #
 
-Le projet Writers PCRS permettant l'écriture des données PCRS dans le format GML, nécessite un minimum de connaissances dans l'utilisation du logiciel FME.
+Le projet Writers PCRS permettant l'écriture des données PCRS dans le format GML, nécessite un minimum de connaissances dans l'utilisation du logiciel FME. 
 
 Le produit Writers PCRS correspond dans FME à 31 Transformers personnalisés. A l'exception de quelques Transformers de fonctionnement, chaque Transformers personnalisés est associé à une classe du standard PCRS.
 
