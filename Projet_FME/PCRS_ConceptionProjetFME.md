@@ -14,14 +14,14 @@ La version minimale de FME à utiliser est la 2016.1.
 
 Suite à l'installation de l'extension PCRS pour FME, vous disposerez d'un trentaine de transformers supplémentaires correspondant aux classes du PCRS (PCRS_MarcheEscalierPCRS, PCRS_AffleurantPCRS...) et à des fonctions utilitaires (PCRS_MergePCRSObjects...).
 
-Ces transformers sont regroupés dans la catégorie PCRS de la galerie des Transformers de FME et commencent tous par le préfixe PCRS_. Il vous suffit donc de taper ces lettres dans l'espace de travail de FME Workbench pour en obtenir la liste et pouvoir sélectionner le transformer de votre choix.
+Ces transformers sont regroupés dans la catégorie PCRS de la galerie des Transformers de FME et commencent tous par le préfixe PCRS_. Il vous suffit donc de taper ces lettres dans l'espace de travail de FME Workbench pour en obtenir la liste et pouvoir sélectionner le Transformer de votre choix.
 
 **Licence PCRS pour FME**
 
 L'extension PCRS pour FME est protégée par un fichier de licence.
 Vous pouvez effectuer une demande de licence auprès de codes@veremes.com en fournissant votre code machine/registration key (n° à 10 chiffres visible dans l'utilitaire FME Licensing Assistant).
 
-En l'absence de fichier de licence, les transformers fonctionnent correctement mais ne laissent passer que 20 entités par classe et 500 au total.
+En l'absence de fichier de licence, les Transformers fonctionnent correctement mais ne laissent passer que 20 entités par classe et 500 au total.
 
 **Limitations**
 
