@@ -31,7 +31,7 @@ Actuellement seules les données vectorielles sont supportées par PCRS pour FME
 
 La première étape consiste à lire le jeu de données source PCRS dans un projet FME selon le format d'origine des données. Le système de coordonnées doit obligatoirement être renseigné dans le jeu de données source.
 
-Les Transformers personnalisés sont ensuite intégrés au projet FME au besoin. En effet, si les données source ne contiennent pas toutes les classes, inutile d'ajouter les Transformers relatifs aux classes manquantes.
+Les Transformers personnalisés sont ensuite intégrés au projet FME au besoin.
 
 L'objectif est d'établir le lien entre les données sources et les Transformers personnalisés.
 
@@ -73,7 +73,7 @@ La nécessité des traitements en amont sur les types d'entités dépend de la q
 
 Lorsque la données source est connectée au Transformer personnalisé, le paramétrage de ce dernier peut alors être réalisé.
 
-A l'ouverture d'un Transformer personnalisé, plusieurs éléments sont proposés. Les champs obligatoires sont visibles en rouge et les champs optionnels en blanc.
+A l'ouverture d'un Transformer personnalisé, plusieurs éléments sont proposés. Les champs obligatoires sont visibles en rouge.
 
 ![](https://raw.githubusercontent.com/Veremes/doc_PCRS/master/Images/transformer_facade.PNG)
 
