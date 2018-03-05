@@ -29,7 +29,7 @@ Actuellement seules les données vectorielles sont supportées par PCRS pour FME
 
 ## Lien entre les données source et les Writers PCRS ##
 
-La première étape consiste à lire le jeu de données source PCRS dans un projet FME selon le format d'origine des données.
+La première étape consiste à lire le jeu de données source PCRS dans un projet FME selon le format d'origine des données. Le système de coordonnées doit obligatoirement être renseigné dans le jeu de données source.
 
 Les Transformers personnalisés sont ensuite intégrés au projet FME au besoin. En effet, si les données source ne contiennent pas toutes les classes, inutile d'ajouter les Transformers relatifs aux classes manquantes.
 
