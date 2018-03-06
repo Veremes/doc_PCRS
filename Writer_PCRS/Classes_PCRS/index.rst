@@ -8,9 +8,7 @@ Description des Transformers personnalisés PCRS pour FME
    PCRS_ArbrePCRS
    PCRS_Commune
    PCRS_EmpriseEchangePCRS
-   PCRS_Environment
    PCRS_FacadePCRS
-   PCRS_Geometrie
    PCRS_HabillageEnveloppePCRS
    PCRS_HabillageLignesPCRS
    PCRS_HabillagePointsPCRS
@@ -18,8 +16,6 @@ Description des Transformers personnalisés PCRS pour FME
    PCRS_HabillageTextePCRS
    PCRS_LimiteVoiriePCRS
    PCRS_MarcheEscalierPCRS
-   PCRS_MasqueOpacitePCRS
-   PCRS_MergePCRSObjects
    PCRS_MurPCRS
    PCRS_NomVoiriePCRS
    PCRS_NumeroVoiriePCRS
@@ -34,4 +30,3 @@ Description des Transformers personnalisés PCRS pour FME
    PCRS_RailPCRS
    PCRS_SeuilPCRS
    PCRS_TronconVoiriePCRS
-   PCRS_Validate
