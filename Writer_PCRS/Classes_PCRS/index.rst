@@ -1,4 +1,4 @@
-Description des Transformers personnalisés PCRS pour FME
+Classes d'entitées PCRS
 =======================
 
 .. toctree::
