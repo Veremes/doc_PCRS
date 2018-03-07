@@ -70,7 +70,9 @@
 
 - Définition : Référence au schéma de contraintes XSD dans l'entête du fichier GML généré.
 
+
 - Type : Domaine de valeurs.
+
 
 - Valeurs possibles :
 
@@ -652,4 +654,5 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
 
 - Définition : Fragments XML à fusionner dans un attribut.
 
-- Valeur par défaut : _pcrs.xml_formatted
+
+- Valeur par défaut : _pcrs.xml_formatted.

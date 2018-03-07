@@ -11,6 +11,6 @@ Transformer permettant de regrouper l'emprise et l'ensemble des objets associés
 
 **Paramètres**
 
-[XML Fragments](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-objet)
+[XML Fragments](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#xml-fragments)
 
-[Emplacement du schéma PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#identifiant-pcrs)
+[Emplacement du schéma PCRS](http://doc-pcrs.readthedocs.io/fr/latest/Projet_FME/PCRS_Parametres.html#emplacement-du-schema-pcrs)
