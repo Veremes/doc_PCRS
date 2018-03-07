@@ -66,6 +66,18 @@
 
 - Type : Date au format (aaaa-mm-jj).
 
+### Emplacement du schéma PCRS ###
+
+- Définition : Référence au schéma de contraintes XSD dans l'entête du fichier GML généré.
+
+- Type : Domaine de valeurs.
+
+- Valeurs possibles :
+
+  - http://schemas.veremes.net/pcrs/CNIG_PCRS_v2.0.xsd,
+
+  - CNIG_PCRS_v2.0.xsd.
+
 ### Fiche ###
 
 - Définition : Adresse de type URL susceptible de fournir des informations supplémentaires, comme des photographies de repérage,  sur le point de canevas.
@@ -635,3 +647,9 @@ Les identifiants PCRS sont obligatoirement renseignés. Ils sont calculés par d
   - Parapet,
 
   - Enrochement.
+
+### XML Fragments ###
+
+- Définition : Fragments XML à fusionner dans un attribut.
+
+- Valeur par défaut : _pcrs.xml_formatted
