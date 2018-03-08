@@ -68,12 +68,7 @@
 
 ### Emplacement du schéma PCRS ###
 
-- Définition : Emplacement du schéma d'application de l'espace de nommage http://cnig.gouv.fr/pcrs. 
-Cette valeur est utilisée pour alimenter l'attribut xsi:schemaLocation dans l'entête du fichier GML généré. L'emplacement du schéma d'application est utilisé pour assurer la validation du jeu de données. 
-
-Il peut être défini par une uri (http://schemas.veremes.net/pcrs/CNIG_PCRS_v2.0.xsd), un emplacement local absolu ("file:///c:/xsd/CNIG_PCRS_v2.0.xsd") ou relatif (./xsd/CNIG_PCRS_v2.0.xsd). 
-
-Le CNIG n'ayant pas défini d'emplacement officiel pour le schéma d'application PCRS, Veremes propose l'uri http://schemas.veremes.net/pcrs/CNIG_PCRS_v2.0.xsd.
+- Définition : Emplacement du schéma d'application de l'espace de nommage http://cnig.gouv.fr/pcrs. Cette valeur est utilisée pour alimenter l'attribut xsi:schemaLocation dans l'entête du fichier GML généré. L'emplacement du schéma d'application est utilisé pour assurer la validation du jeu de données. Il peut être défini par une uri (http://schemas.veremes.net/pcrs/CNIG_PCRS_v2.0.xsd), un emplacement local absolu ("file:///c:/xsd/CNIG_PCRS_v2.0.xsd") ou relatif (./xsd/CNIG_PCRS_v2.0.xsd). Le CNIG n'ayant pas défini d'emplacement officiel pour le schéma d'application PCRS, Veremes propose l'uri http://schemas.veremes.net/pcrs/CNIG_PCRS_v2.0.xsd.
 
 
 - Type : Domaine de valeurs ou chaîne de caractères
